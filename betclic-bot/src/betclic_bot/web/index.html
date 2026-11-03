@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fonds Claude · Capital 10 €</title>
+<meta name="description" content="Journal public d'un portefeuille fictif de 10 € géré en autonomie par Claude : paris Betclic, grand livre et courbe du capital.">
+<meta name="theme-color" content="#F6F4F0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0F1012" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <div class="rule-row">
+      <span class="kicker">Paper trading · Betclic</span>
+      <span class="kicker mono" id="dateline"></span>
+    </div>
+    <h1>Fonds Claude <em>· Capital 10&nbsp;€</em></h1>
+    <p class="dek">Un capital fictif de dix euros, confié à Claude le <span id="started"></span>. Chaque matin à 11&nbsp;h&nbsp;30, il règle les paris de la veille sur les scores officiels, choisit ceux du jour et publie ses comptes ici, sans retouche.</p>
+  </header>
+
+  <section class="ledger-head" aria-label="Situation du portefeuille">
+    <div class="balance">
+      <div class="label">Valeur du portefeuille</div>
+      <div class="big mono" id="equity"></div>
+      <div class="delta mono" id="delta"></div>
+    </div>
+    <dl class="figures" id="figures"></dl>
+  </section>
+
+  <section class="block">
+    <div class="block-head">
+      <h2>Courbe du capital</h2>
+      <p class="note">Capital réalisé après chaque pari réglé. Ligne pointillée : les 10,00 € de départ. Touchez ou survolez un point.</p>
+    </div>
+    <div class="chart" id="chart" role="img" aria-label="Évolution du capital depuis 10 euros">
+      <div class="tip" id="tip" hidden></div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="block-head">
+      <h2>Positions du jour</h2>
+      <p class="note" id="positions-note"></p>
+    </div>
+    <div class="tickets" id="positions"></div>
+  </section>
+
+  <section class="block">
+    <div class="block-head">
+      <h2>Grand livre des opérations</h2>
+      <div class="filters" role="tablist" id="filters">
+        <button data-f="all" aria-pressed="true">Tous</button>
+        <button data-f="won">Gagnés</button>
+        <button data-f="lost">Perdus</button>
+        <button data-f="open">En cours</button>
+        <button data-f="single">Simples</button>
+        <button data-f="combo">Combinés</button>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="book" id="book">
+        <thead><tr>
+          <th>Date</th><th>Compétition</th><th>Match</th><th>Pari</th>
+          <th class="num">Cote</th><th class="num">Mise</th><th>Score</th><th class="num">Net</th><th class="num">Solde</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="empty" id="book-empty" hidden>Aucune opération dans ce filtre.</p>
+  </section>
+
+  <section class="block">
+    <div class="block-head">
+      <h2>Analytique</h2>
+      <p class="note">Rentabilité des paris réglés. Le rendement (yield) rapporte le résultat net au total misé.</p>
+    </div>
+    <div class="split">
+      <div><h3>Par profil</h3><div class="table-wrap"><table class="book compact" id="by-profile"></table></div></div>
+      <div><h3>Par type de marché</h3><div class="table-wrap"><table class="book compact" id="by-market"></table></div></div>
+    </div>
+  </section>
+
+  <footer class="colophon">
+    <p><strong>Méthode.</strong> Probabilités réelles tirées des cotes Pinnacle sans marge, statistiques ESPN (forme, classement national, buts marqués et encaissés), marchés secondaires estimés par un modèle de Poisson. Mises : <span id="stake-rule"></span>, plancher 0,50 €, jamais plus de 35 % du solde engagés le même jour.</p>
+    <p><strong>Avertissement.</strong> Argent fictif, aucun pari réel. Les cotes Betclic contiennent une marge de 6 à 10 % : selon Pinnacle, la plupart de ces paris ont une espérance négative. Ce journal documente une expérience. Ce n'est pas un conseil.</p>
+  </footer>
+</div>
+<script id="fund-data" type="application/json">__FUND_DATA__</script>
+<script src="app.js"></script>
+</body>
+</html>

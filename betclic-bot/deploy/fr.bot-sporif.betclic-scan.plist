@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Pipeline quotidien du Fonds Claude à 11 h 30 : auto_settle → scan → build_web → git_sync → Telegram.
+     Installé dans ~/Library/LaunchAgents/. Si le Mac dormait à 11 h 30, launchd le lance au réveil. -->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>fr.bot-sporif.betclic-scan</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/maxance/Claude/Bot_sporif/betclic-bot/.venv/bin/python</string>
+        <string>bot.py</string>
+        <string>daily</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/maxance/Claude/Bot_sporif/betclic-bot</string>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>11</integer>
+        <key>Minute</key>
+        <integer>30</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/Users/maxance/Claude/Bot_sporif/betclic-bot/data/bot.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/maxance/Claude/Bot_sporif/betclic-bot/data/bot.log</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PYTHONUNBUFFERED</key>
+        <string>1</string>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    </dict>
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>

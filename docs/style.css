@@ -1,0 +1,206 @@
+/* Fonds Claude — journal financier : papier crème, filets d'un pixel, chiffres en chasse fixe. */
+:root {
+  --paper: #F6F4F0;
+  --sheet: #FBFAF7;
+  --ink: #1C1B19;
+  --muted: #6B675F;
+  --faint: #A39E93;
+  --rule: #DAD5CB;
+  --rule-strong: #1C1B19;
+  --gain: #166534;
+  --loss: #991B1B;
+  --open: #A16207;
+  --gain-wash: #E5EFE6;
+  --loss-wash: #F4E4E1;
+  --open-wash: #F5ECD9;
+  --serif: "Instrument Serif", "Newsreader", Georgia, serif;
+  --sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #0F1012;
+    --sheet: #151619;
+    --ink: #E9E6DF;
+    --muted: #9B978E;
+    --faint: #66635D;
+    --rule: #2A2B2F;
+    --rule-strong: #E9E6DF;
+    --gain: #5FB37C;
+    --loss: #E07462;
+    --open: #D9A045;
+    --gain-wash: #14251A;
+    --loss-wash: #2A1715;
+    --open-wash: #2A2113;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 15px/1.55 var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+.page { max-width: 1080px; margin: 0 auto; padding: 0 16px 48px; }
+.mono, .num, td.num, .figures dd { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.gain { color: var(--gain); }
+.loss { color: var(--loss); }
+.open { color: var(--open); }
+
+/* --- En-tête ----------------------------------------------------------------------- */
+.masthead { padding-top: 20px; border-bottom: 1px solid var(--rule-strong); }
+.rule-row {
+  display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  padding: 8px 0; border-top: 3px double var(--rule-strong); border-bottom: 1px solid var(--rule);
+}
+.kicker { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.kicker.mono { letter-spacing: .04em; text-transform: none; }
+h1 {
+  font: 400 clamp(40px, 9vw, 76px)/0.98 var(--serif);
+  letter-spacing: -0.01em; margin: 22px 0 10px;
+}
+h1 em { font-style: italic; color: var(--muted); }
+.dek { max-width: 62ch; margin: 0 0 20px; color: var(--muted); font-size: 15px; }
+
+/* --- Situation ----------------------------------------------------------------------- */
+.ledger-head {
+  display: grid; grid-template-columns: minmax(0, 1fr); border-bottom: 1px solid var(--rule-strong);
+}
+@media (min-width: 760px) { .ledger-head { grid-template-columns: 300px minmax(0, 1fr); } }
+.balance { padding: 20px 20px 20px 0; border-bottom: 1px solid var(--rule); }
+@media (min-width: 760px) { .balance { border-bottom: 0; border-right: 1px solid var(--rule); } }
+.label { font-size: 12px; color: var(--muted); letter-spacing: .02em; }
+.big { font-size: 46px; font-weight: 500; letter-spacing: -0.03em; line-height: 1.1; margin-top: 6px; }
+.delta { margin-top: 4px; font-size: 14px; }
+.figures {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0;
+}
+@media (min-width: 560px) { .figures { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.figures div { padding: 14px 14px 14px 0; border-bottom: 1px solid var(--rule); }
+@media (min-width: 760px) {
+  .figures div { padding: 16px 18px; border-left: 0; }
+  .figures div:nth-child(3n+1) { border-left: 0; }
+}
+.figures dt { font-size: 12px; color: var(--muted); }
+.figures dd { margin: 4px 0 0; font-size: 18px; font-weight: 500; }
+.figures dd small { font-size: 12px; color: var(--muted); font-weight: 400; }
+
+/* --- Blocs ------------------------------------------------------------------------- */
+.block { padding-top: 34px; }
+.block-head {
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 20px;
+  border-bottom: 1px solid var(--rule-strong); padding-bottom: 8px; margin-bottom: 16px;
+}
+h2 { font: 400 30px/1.1 var(--serif); margin: 0; }
+h3 { font: 600 12px/1.4 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+.note { margin: 0; font-size: 13px; color: var(--muted); max-width: 60ch; }
+.empty { color: var(--muted); font-style: italic; }
+
+/* --- Graphique ----------------------------------------------------------------------- */
+.chart {
+  position: relative; height: 280px; border: 1px solid var(--rule); background: var(--sheet);
+  touch-action: pan-y;
+}
+@media (max-width: 560px) { .chart { height: 220px; } }
+.chart svg { display: block; width: 100%; height: 100%; }
+.chart .grid line { stroke: var(--rule); stroke-width: 1; }
+.chart .axis text { fill: var(--faint); font: 400 10px var(--mono); }
+.chart .base { stroke: var(--muted); stroke-dasharray: 3 4; stroke-width: 1; }
+.chart .line { fill: none; stroke: var(--ink); stroke-width: 1.6; stroke-linejoin: round; }
+.chart .area { opacity: .07; }
+.chart .dot { stroke: var(--sheet); stroke-width: 1.5; }
+.chart .cursor { stroke: var(--muted); stroke-width: 1; }
+.tip {
+  position: absolute; top: 8px; z-index: 2; min-width: 180px; max-width: 260px;
+  background: var(--paper); border: 1px solid var(--rule-strong); padding: 8px 10px;
+  font-size: 12px; line-height: 1.4; pointer-events: none;
+}
+.tip .t { font-family: var(--mono); color: var(--muted); }
+.tip .v { font-family: var(--mono); font-size: 15px; font-weight: 600; }
+
+/* --- Bordereaux (tickets) ------------------------------------------------------------ */
+.tickets { display: grid; gap: 14px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 680px) { .tickets { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 980px) { .tickets { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.ticket {
+  background: var(--sheet); border: 1px solid var(--rule); padding: 14px 16px 12px;
+  position: relative; display: flex; flex-direction: column; gap: 10px;
+}
+.ticket::before {
+  content: ""; position: absolute; left: 0; right: 0; top: -1px; height: 3px;
+  background: var(--accent, var(--ink));
+}
+.ticket[data-profile="SAFE"] { --accent: var(--gain); }
+.ticket[data-profile="SWEET_SPOT"] { --accent: var(--open); }
+.ticket[data-profile="AUDACIEUX"] { --accent: var(--loss); }
+.ticket[data-profile="COMBINE"] { --accent: var(--ink); }
+.t-top { display: flex; justify-content: space-between; gap: 10px; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.t-top .conf { font-family: var(--mono); letter-spacing: 0; text-transform: none; }
+.t-match { font: 400 22px/1.15 var(--serif); }
+.t-meta { font-size: 12px; color: var(--muted); }
+.t-bet { font-weight: 600; font-size: 15px; }
+.t-legs { list-style: none; margin: 0; padding: 0; border-top: 1px dashed var(--rule); }
+.t-legs li { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-bottom: 1px dashed var(--rule); font-size: 13px; }
+.t-legs li span:last-child { font-family: var(--mono); white-space: nowrap; }
+.t-legs small { display: block; color: var(--muted); font-size: 11px; }
+.t-figs {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px dashed var(--rule); border-bottom: 1px dashed var(--rule); padding: 8px 0;
+}
+.t-figs div { font-size: 11px; color: var(--muted); }
+.t-figs b { display: block; font: 500 16px var(--mono); color: var(--ink); font-variant-numeric: tabular-nums; }
+.t-why { font-size: 13px; font-style: italic; color: var(--muted); margin: 0; }
+
+/* --- Grand livre --------------------------------------------------------------------- */
+.filters {
+  display: flex; flex-wrap: nowrap; gap: 0; border: 1px solid var(--rule-strong);
+  max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+}
+.filters::-webkit-scrollbar { display: none; }
+.filters button {
+  font: 500 12px var(--sans); color: var(--ink); background: transparent; border: 0;
+  border-left: 1px solid var(--rule); padding: 7px 11px; cursor: pointer; min-height: 34px; white-space: nowrap;
+}
+.filters button:first-child { border-left: 0; }
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid var(--rule); background: var(--sheet); }
+table.book { width: 100%; border-collapse: collapse; font-size: 13px; }
+.book th {
+  text-align: left; font: 600 11px var(--sans); letter-spacing: .08em; text-transform: uppercase;
+  color: var(--muted); padding: 9px 10px; border-bottom: 1px solid var(--rule-strong); white-space: nowrap;
+}
+.book td { padding: 9px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.book tr:last-child td { border-bottom: 0; }
+/* Date figée à gauche pendant le défilement horizontal (mobile) */
+#book th:first-child, #book td:first-child { position: sticky; left: 0; background: var(--sheet); z-index: 1; }
+#book th:first-child { box-shadow: 1px 0 0 var(--rule); }
+#book td:first-child { box-shadow: 1px 0 0 var(--rule); }
+.book .num { text-align: right; white-space: nowrap; }
+.book td.match { min-width: 160px; }
+.book td.bet { min-width: 170px; }
+.book td small { display: block; color: var(--muted); font-size: 11px; }
+.book td.nowrap { white-space: nowrap; }
+.pill {
+  display: inline-block; font: 600 10px var(--sans); letter-spacing: .08em; text-transform: uppercase;
+  padding: 2px 6px; border: 1px solid currentColor;
+}
+.pill.won { color: var(--gain); background: var(--gain-wash); }
+.pill.lost { color: var(--loss); background: var(--loss-wash); }
+.pill.open { color: var(--open); background: var(--open-wash); }
+.pill.void { color: var(--muted); }
+table.compact td, table.compact th { padding: 8px 10px; }
+.split { display: grid; gap: 22px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 860px) { .split { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* --- Colophon ------------------------------------------------------------------------ */
+.colophon {
+  margin-top: 44px; padding-top: 14px; border-top: 3px double var(--rule-strong);
+  font-size: 13px; color: var(--muted); display: grid; gap: 8px; max-width: 75ch;
+}
+.colophon p { margin: 0; }
+.colophon strong { color: var(--ink); font-weight: 600; }
