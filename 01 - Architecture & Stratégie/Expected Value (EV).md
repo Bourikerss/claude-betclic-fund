@@ -28,7 +28,7 @@ $$EV = 0.5397 \times 1.95 - 1 = +5.24\ \%$$
 
 | Condition | Seuil |
 |---|---|
-| EV minimale pour être présenté | **≥ −8 %** (≥ 15/30 en stats si < −3.5 %) |
+| EV minimale pour être présenté | **≥ −10 %** (≥ 15/30 en stats si < −3.5 %) |
 | EV donnant le maximum de points « cote » | **≥ +5 %** |
 
 Depuis le 03/11/2026 ([[Stratégie Analyste Contextuel]]), l'EV ne filtre plus : elle note la **compétitivité

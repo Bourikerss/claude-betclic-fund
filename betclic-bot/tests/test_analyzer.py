@@ -33,12 +33,12 @@ def test_profile_odd_ranges(odd, profile):
 
 class TestRejection:
     def test_ev_floor_inclusive(self):
-        assert rules.MIN_EV == -0.08
-        assert rejection_reason("SWEET_SPOT", outcome(2.0, 0.5, ev=-0.08), 0.9) is None
-        assert rejection_reason("SWEET_SPOT", outcome(2.0, 0.5, ev=-0.081), 0.9) == REJECT_EV
+        assert rules.MIN_EV == -0.10
+        assert rejection_reason("SWEET_SPOT", outcome(2.0, 0.5, ev=-0.10), 0.9) is None
+        assert rejection_reason("SWEET_SPOT", outcome(2.0, 0.5, ev=-0.101), 0.9) == REJECT_EV
 
     def test_standard_margin_needs_15_stats_points(self):
-        """EV entre −8 % et −3.5 % : stats disponibles et ≥ 15/30 (convergence ≥ 0.50) obligatoires."""
+        """EV entre −10 % et −3.5 % : stats disponibles et ≥ 15/30 (convergence ≥ 0.50) obligatoires."""
         low = outcome(2.0, 0.47, ev=-0.06)
         assert rejection_reason("SWEET_SPOT", low, 0.50) is None
         assert rejection_reason("SWEET_SPOT", low, 0.49) == REJECT_STATS  # seuil Sweet Spot = 0.50
@@ -135,7 +135,7 @@ def test_analyze_fixture_event(soccer_event, now, strong_home, weak_away):
 
 
 def test_score_pillars():
-    o = outcome(2.0, 0.48, ev=-0.015)  # SWEET_SPOT, EV à mi-chemin de −8 % et +5 %
+    o = outcome(2.0, 0.48, ev=-0.025)  # SWEET_SPOT, EV à mi-chemin de −10 % et +5 %
     opp = analyze(o, "Football", "Premier League", 1000, None, None)
     assert opp.score_market == pytest.approx(35 * (0.48 - 0.40) / 0.16, abs=0.05)
     assert opp.score_price == pytest.approx(17.5, abs=0.05)

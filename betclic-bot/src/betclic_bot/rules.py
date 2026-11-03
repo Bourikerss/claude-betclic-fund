@@ -46,8 +46,9 @@ SAFE_MIN_FAIR_PROB = 0.56
 # Convergence statistique minimale (0 → 1). SAFE exige des stats disponibles.
 MIN_STATS_SCORE = {PROFILE_SAFE: 0.60, PROFILE_SWEET_SPOT: 0.50, PROFILE_AUDACIEUX: 0.40}
 # Fourchette d'EV brute acceptée : Betclic peut être sous Pinnacle (marge), mais pas trop.
-# Plancher abaissé à −8 % le 03/11/2026 : à −3.5 %, 0 pari (meilleures EV observées −4.3 % à −7.4 %).
-MIN_EV = -0.08
+# Plancher abaissé à −8 % puis à −10 % le 03/11/2026 (demande de l'utilisateur) : à −8 %, 0 pari sur les
+# matchs européens où Betclic prend ~9,5 % de marge (meilleure EV observée −8,01 %).
+MIN_EV = -0.10
 # Entre MIN_EV et ce seuil (marge Betclic « standard »), le pari n'est gardé que si les stats le soutiennent.
 STANDARD_MARGIN_EV = -0.035
 MIN_STATS_POINTS_LOW_EV = 15  # sur 30 : stats disponibles et convergence ≥ 0.50

@@ -13,8 +13,8 @@ Partie de : [[Stratégie Analyste Contextuel]] · Score : [[Score d'Opportunité
 | 🎯 **SWEET SPOT** (équilibre) | 1.80 – 2.35 | Convergence ≥ 50 % si stats disponibles | **7 %** |
 | 🔥 **AUDACIEUX** (belle cote) | 2.35 – 3.80 | Convergence ≥ 40 % si stats disponibles | **5 %** |
 
-Pour tous les profils : EV ≥ −8 % ([[Expected Value (EV)]]), marché [[Pinnacle]] complet et marge < 12 %.
-Si l'EV est entre −8 % et −3.5 %, le pilier Stats doit valoir au moins **15/30** (voir [[Score d'Opportunité]]).
+Pour tous les profils : EV ≥ −10 % ([[Expected Value (EV)]]), marché [[Pinnacle]] complet et marge < 12 %.
+Si l'EV est entre −10 % et −3.5 %, le pilier Stats doit valoir au moins **15/30** (voir [[Score d'Opportunité]]).
 
 ## Sélection d'un scan
 

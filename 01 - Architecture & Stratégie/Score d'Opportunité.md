@@ -12,7 +12,7 @@ Partie de : [[Stratégie Analyste Contextuel]] · Profils : [[Profils de risque]
 | Pilier | Points | Ce qui est mesuré |
 |---|---|---|
 | 🎲 Réalité du marché | 35 | Probabilité réelle [[Pinnacle]], placée dans la plage de son profil |
-| 💶 Compétitivité de la cote | 35 | Écart cote [[Betclic]] / cote juste : EV −8 % → 0 pt, +5 % → 35 pts |
+| 💶 Compétitivité de la cote | 35 | Écart cote [[Betclic]] / cote juste : EV −10 % → 0 pt, +5 % → 35 pts |
 | 📊 Convergence statistique | 30 | Les stats ESPN confirment-elles le pari ? (0 → 1) |
 
 ### 1. Marché (35 pts)
@@ -22,10 +22,10 @@ Plages de probabilité réelle, de 0 au maximum : SAFE 56 → 75 %, SWEET SPOT 4
 
 ### 2. Cote (35 pts)
 
-$$\text{points} = 35 \times \frac{EV + 8\,\%}{5\,\% + 8\,\%}\quad\text{(borné à [0, 35])}$$
+$$\text{points} = 35 \times \frac{EV + 10\,\%}{5\,\% + 10\,\%}\quad\text{(borné à [0, 35])}$$
 
-Voir [[Expected Value (EV)]]. Une issue sous −8 % d'EV est écartée : Betclic s'y sert trop.
-Entre −8 % et −3.5 % (marge Betclic standard), il faut **au moins 15/30 en stats** : le pari n'est gardé
+Voir [[Expected Value (EV)]]. Une issue sous −10 % d'EV est écartée : Betclic s'y sert trop.
+Entre −10 % et −3.5 % (marge Betclic standard), il faut **au moins 15/30 en stats** : le pari n'est gardé
 que si la forme, le classement et les moyennes le soutiennent vraiment.
 
 ### 3. Stats (30 pts)

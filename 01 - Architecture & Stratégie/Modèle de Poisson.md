@@ -38,7 +38,7 @@ $$P(\text{score } i\text{–}j) = \frac{e^{-\lambda_{dom}}\lambda_{dom}^{i}}{i!}
 
 > [!warning] La cote Betclic de ces marchés n'est pas connue
 > Le bot l'**estime** en appliquant la marge 1N2 de Betclic sur ce match. Ce n'est qu'une estimation.
-> Il affiche surtout la **cote minimale à exiger** : `cote juste × 0.92` (EV ≥ −8 %).
+> Il affiche surtout la **cote minimale à exiger** : `cote juste × 0.90` (EV ≥ −10 %).
 > Sur Betclic, ne prendre le pari que si la cote affichée est **au moins** celle-là, puis noter la cote réelle
 > dans `cote_prise`.
 

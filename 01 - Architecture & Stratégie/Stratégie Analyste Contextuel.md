@@ -31,7 +31,7 @@ Chaque issue reçoit un [[Score d'Opportunité]] sur 100. Elle est rangée dans 
 ## Ce qu'il faut garder en tête
 
 > [!warning] EV négative assumée
-> La plupart des paris présentés ont une EV **négative** selon Pinnacle (entre −8 % et 0 %). Sous −3.5 %, le pari
+> La plupart des paris présentés ont une EV **négative** selon Pinnacle (entre −10 % et 0 %). Sous −3.5 %, le pari
 > n'est gardé que si les stats ESPN le soutiennent nettement (≥ 15/30).
 > Les statistiques ne rendent pas un pari rentable à elles seules : le marché Pinnacle les intègre déjà.
 > Le bot sélectionne les **meilleurs paris disponibles** chez Betclic. Ce ne sont pas des paris gagnants

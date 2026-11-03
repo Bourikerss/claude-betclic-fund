@@ -6,7 +6,7 @@ Poisson (`poisson.py`) calibré sur Pinnacle (1N2 + totals) et, à défaut de to
 
 Betclic ne publiant pas ces cotes via l'API, on estime sa cote en appliquant au marché sa marge
 1N2 constatée sur le même match, et on affiche la **cote minimale à exiger** :
-`cote juste × (1 + MIN_EV)`. En dessous, le pari sort des règles (EV < −8 %).
+`cote juste × (1 + MIN_EV)`. En dessous, le pari sort des règles (EV < −10 %).
 """
 from __future__ import annotations
 

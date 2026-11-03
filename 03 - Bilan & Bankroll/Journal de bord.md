@@ -19,6 +19,7 @@ anomalies du bot.
 - Remise à zéro : les 6 fiches de test sont archivées dans `98 - Archives/`.
 - Chaque jour à 11 h 30 : règlement automatique sur les scores ESPN, puis 2 à 4 paris simples et 1 Combiné du jour,
   publication du site sur GitHub Pages et un seul message Telegram.
+- Plancher d'EV abaissé à **−10 %** (à −8 %, aucun pari ce soir : meilleure EV −8,01 %).
 - Mises : 10 % (Safe), 7 % (Sweet Spot), 5 % (Audacieux, Combiné) du solde, plancher 0,50 €, 35 % max par jour.
 
 ### 2026-11-03

@@ -90,7 +90,7 @@ l'EV réelle est toujours affichée, jamais masquée.
 | Pilier | Points | Calcul |
 |---|---|---|
 | Réalité du marché | 35 | probabilité réelle Pinnacle (dé-viggée) située dans la plage de son profil : SAFE 56 → 75 %, SWEET_SPOT 40 → 56 %, AUDACIEUX 24 → 42 % |
-| Compétitivité de la cote | 35 | EV Betclic vs cote juste : −8 % → 0 pt, +5 % ou plus → 35 pts (linéaire) |
+| Compétitivité de la cote | 35 | EV Betclic vs cote juste : −10 % → 0 pt, +5 % ou plus → 35 pts (linéaire) |
 | Convergence statistique | 30 | 30 × convergence (0 → 1) ; stats indisponibles → 0.40 (12 pts) |
 
 Convergence selon le marché :
@@ -108,8 +108,8 @@ Convergence selon le marché :
 | 🎯 `SWEET_SPOT` | `1.80 ≤ c < 2.35` | convergence ≥ 0.50 (si stats disponibles) | **7 %** |
 | 🔥 `AUDACIEUX` | `2.35 ≤ c ≤ 3.80` | convergence ≥ 0.40 (si stats disponibles) | **5 %** |
 
-**Plancher d'EV** : `EV = p × c − 1 ≥ −8 %` (abaissé de −3.5 % le 03/11/2026 : à −3.5 %, aucun pari ;
-meilleures EV observées entre −4.3 % et −7.4 %). **Filtre de qualité** : si `−8 % ≤ EV < −3.5 %`
+**Plancher d'EV** : `EV = p × c − 1 ≥ −10 %` (abaissé de −3.5 % à −8 % puis à **−10 %** le 03/11/2026 : à −8 %,
+aucun pari sur les matchs européens, meilleure EV −8,01 %). **Filtre de qualité** : si `−10 % ≤ EV < −3.5 %`
 (marge Betclic standard), le pilier Statistiques doit valoir **au moins 15/30** — stats ESPN disponibles
 et convergence ≥ 0.50. Sans stats (tennis, NFL…), seules les issues à EV ≥ −3.5 % peuvent passer.
 
@@ -146,7 +146,7 @@ sur les favoris. La méthode « power » est disponible via `DEVIG_METHOD=power`
 
 - Chaque jour, **1 Combiné du jour** : 2 ou 3 sélections sur des matchs **différents** (et absents des paris
   simples du jour), cote totale entre **1.70 et 2.40**.
-- Sélection éligible : cote 1.15 – 1.75, probabilité Pinnacle ≥ 60 %, EV ≥ −8 %, stats ESPN disponibles et
+- Sélection éligible : cote 1.15 – 1.75, probabilité Pinnacle ≥ 60 %, EV ≥ −10 %, stats ESPN disponibles et
   convergence ≥ 0.60. Le combiné retenu maximise la convergence moyenne, puis la probabilité combinée.
 - Pas de combiné possible : un **pari Fun** (meilleur Audacieux d'un autre match) le remplace.
 - Les marges se multiplient dans un combiné : son EV est affichée dans la fiche.
