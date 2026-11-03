@@ -149,6 +149,8 @@ sur les favoris. La méthode « power » est disponible via `DEVIG_METHOD=power`
 - Sélection éligible : cote 1.15 – 1.75, probabilité Pinnacle ≥ 60 %, EV ≥ −10 %, stats ESPN disponibles et
   convergence ≥ 0.60. Le combiné retenu maximise la convergence moyenne, puis la probabilité combinée.
 - Pas de combiné possible : un **pari Fun** (meilleur Audacieux d'un autre match) le remplace.
+- Si le plafond de 35 % bloque le combiné, le pari simple au plus faible score lui cède sa place
+  (on garde toujours au moins 2 paris simples).
 - Les marges se multiplient dans un combiné : son EV est affichée dans la fiche.
 
 ## 4. Gestion de mise — proportionnelle au solde

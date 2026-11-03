@@ -125,7 +125,17 @@ def plan_day(candidates: List[Opportunity], combo_legs, ledger: Ledger, now: dat
     used = open_events | {p.record["legs"][0]["event_id"] for p in plan.singles}
     combo = best_combo(combo_legs, exclude_events=used)
     if combo and not ledger.has_bet(combo_record(combo, now, tz)["id"]):
-        stake = _fit_stake(profile_stake(rules.PROFILE_COMBINE, base)[0], remaining, cash)
+        wanted = profile_stake(rules.PROFILE_COMBINE, base)[0]
+        stake = _fit_stake(wanted, remaining, cash)
+        # Le Combiné du jour prime sur le pari simple au plus faible score si le plafond de 35 % bloque,
+        # en gardant au moins MIN_PICKS_PER_SCAN paris simples.
+        while stake is None and len(plan.singles) > rules.MIN_PICKS_PER_SCAN:
+            dropped = min(plan.singles, key=lambda pos: pos.record["score"])
+            plan.singles.remove(dropped)
+            remaining = round(remaining + dropped.record["stake"], 2)
+            cash = round(cash + dropped.record["stake"], 2)
+            plan.skipped.append(f"{dropped.record['label']} : remplacé par le Combiné du jour (plafond de 35 %)")
+            stake = _fit_stake(wanted, remaining, cash)
         if stake is not None:
             plan.combo = Position(combo_record(combo, now, tz) | {"stake": stake}, combo=combo)
     elif not combo:

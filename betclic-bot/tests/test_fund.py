@@ -102,3 +102,23 @@ def test_commit_plan_writes_ledger_and_notes(tmp_path, ledger, soccer_event, str
     meta, _ = split_frontmatter((tmp_path / "02 - Paris Détectés" / next(n for n in notes if "Combiné" in n)).read_text())
     assert meta["profil"] == "COMBINE" and meta["statut"] == "EN_ATTENTE"
     assert Ledger(tmp_path / "ledger.json").balance == ledger.balance  # sauvegardé
+
+
+def test_combo_takes_priority_over_weakest_single(ledger):
+    """03/11/2026 : 4 simples (3,20 €) laissaient 0,30 € → pas de combiné. Le plus faible simple cède sa place."""
+    cands = [_opp("a", "SAFE", 80, 1.6, 0.66), _opp("b", "SAFE", 70, 1.55, 0.67),
+             _opp("c", "SWEET_SPOT", 60, 2.0, 0.52), _opp("d", "AUDACIEUX", 50, 3.0, 0.36)]
+    legs = [_leg("x", 1.40), _leg("y", 1.46)]
+    plan = plan_day(cands, legs, ledger, NOW)
+    assert plan.combo is not None and plan.combo.record["kind"] == "COMBINE"
+    assert len(plan.singles) == 3
+    assert "d" not in {p.record["legs"][0]["event_id"] for p in plan.singles}  # plus faible score retiré
+    assert plan.total_staked <= 3.5 + 1e-9
+    assert any("remplacé par le Combiné" in s for s in plan.skipped)
+
+
+def test_combo_never_drops_below_two_singles(tmp_path):
+    poor = Ledger(tmp_path / "poor.json", 4.0, NOW)  # plafond 1,40 € : deux simples à 0,50 € + combiné à 0,50 € = 1,50 €
+    cands = [_opp("a", "SAFE", 80, 1.6, 0.66), _opp("b", "SAFE", 70, 1.55, 0.67)]
+    plan = plan_day(cands, [_leg("x", 1.40), _leg("y", 1.46)], poor, NOW)
+    assert len(plan.singles) == 2 and plan.combo is None
