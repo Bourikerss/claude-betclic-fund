@@ -73,6 +73,110 @@
       "bet_id": "combo_20261104",
       "amount": -0.5,
       "balance": 4.44
+    },
+    {
+      "date": "2026-11-05T10:30:01Z",
+      "type": "GAIN",
+      "label": "Gain · RB Leipzig vs Manchester City · RB Leipzig : plus de 1.5 buts",
+      "bet_id": "df7d2d81b9e2f3f11c6aeddaee6b7085_team_totals_rb-leipzig-over_+1.5",
+      "amount": 1.22,
+      "balance": 5.66
+    },
+    {
+      "date": "2026-11-05T10:30:01Z",
+      "type": "GAIN",
+      "label": "Gain · Porto vs Napoli · Plus de 2.5 buts",
+      "bet_id": "ba82ee37f64a66a30d85f8b90082ec2f_totals_over_+2.5",
+      "amount": 1.27,
+      "balance": 6.93
+    },
+    {
+      "date": "2026-11-05T10:30:01Z",
+      "type": "GAIN",
+      "label": "Gain · AEK Athens vs Real Madrid · AEK Athens : plus de 0.5 but",
+      "bet_id": "f43ef699c987e112e115f7035114854e_team_totals_aek-athens-over_+0.5",
+      "amount": 1.49,
+      "balance": 8.42
+    },
+    {
+      "date": "2026-11-05T10:30:01Z",
+      "type": "GAIN",
+      "label": "Gain · RC Lens vs Como · Como (remboursé si nul)",
+      "bet_id": "013cecbf40f5b4530342632a80f35b00_dnb_como",
+      "amount": 1.53,
+      "balance": 9.95
+    },
+    {
+      "date": "2026-11-05T10:30:01Z",
+      "type": "GAIN",
+      "label": "Gain · New Orleans Pelicans vs Utah Jazz · New Orleans Pelicans",
+      "bet_id": "0b5966b7b96eb844618eea8f215a0c71_h2h_new-orleans-pelicans",
+      "amount": 0.97,
+      "balance": 10.92
+    },
+    {
+      "date": "2026-11-05T10:30:01Z",
+      "type": "GAIN",
+      "label": "Gain · Slavia Praha vs Arsenal · Slavia Praha : plus de 0.5 but",
+      "bet_id": "a5910ae3b314876faea7f5c03b8aeaad_team_totals_slavia-praha-over_+0.5",
+      "amount": 1.17,
+      "balance": 12.09
+    },
+    {
+      "date": "2026-11-05T10:30:01Z",
+      "type": "GAIN",
+      "label": "Gain · Borussia Dortmund vs Real Betis · Real Betis +1.5",
+      "bet_id": "6d386ed81fabf67aa19fbd442c0d8c60_spreads_real-betis_+1.5",
+      "amount": 0.95,
+      "balance": 13.04
+    },
+    {
+      "date": "2026-11-05T10:30:01Z",
+      "type": "PERTE",
+      "label": "Perte · Combiné du jour · 2 sélections",
+      "bet_id": "combo_20261104",
+      "amount": 0.0,
+      "balance": 13.04
+    },
+    {
+      "date": "2026-11-05T10:30:01Z",
+      "type": "MISE",
+      "label": "Mise · Torreense vs FC Ararat-Armenia · Plus de 2.5 buts",
+      "bet_id": "402e102fa845ed84ab7e59b3b17f8c29_totals_over_+2.5",
+      "amount": -0.91,
+      "balance": 12.13
+    },
+    {
+      "date": "2026-11-05T10:30:01Z",
+      "type": "MISE",
+      "label": "Mise · Lillestrom vs Viktoria Plzeň · Lillestrom",
+      "bet_id": "c50815d0a3cbc7dfe6b9f3a737ce4836_h2h_lillestrom",
+      "amount": -0.65,
+      "balance": 11.48
+    },
+    {
+      "date": "2026-11-05T10:30:01Z",
+      "type": "MISE",
+      "label": "Mise · Sparta Prague vs Bournemouth · Moins de 3.5 buts",
+      "bet_id": "d437cbfcee6b57ec58d464e6b459c56e_totals_under_+3.5",
+      "amount": -0.91,
+      "balance": 10.57
+    },
+    {
+      "date": "2026-11-05T10:30:01Z",
+      "type": "MISE",
+      "label": "Mise · SK Sturm Graz vs NK Celje · SK Sturm Graz",
+      "bet_id": "84b68e09ecbe93fdbce759cd822322a2_h2h_sk-sturm-graz",
+      "amount": -1.3,
+      "balance": 9.27
+    },
+    {
+      "date": "2026-11-05T10:30:01Z",
+      "type": "MISE",
+      "label": "Mise · Combiné du jour · 3 sélections",
+      "bet_id": "combo_20261105",
+      "amount": -0.65,
+      "balance": 8.62
     }
   ],
   "bets": {
@@ -111,18 +215,19 @@
           "selection": "RB Leipzig : plus de 1.5 buts",
           "odd": 2.44,
           "estimated": true,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "2-3"
         }
       ],
       "stake": 0.5,
       "placed_at": "2026-11-03T20:03:08Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.22
+      "status": "GAGNE",
+      "payout": 1.22,
+      "profit": 0.72,
+      "settled_at": "2026-11-05T10:30:01Z",
+      "final_score": "2-3",
+      "potential_payout": 1.22,
+      "settled_odd": 2.44
     },
     "ba82ee37f64a66a30d85f8b90082ec2f_totals_over_+2.5": {
       "id": "ba82ee37f64a66a30d85f8b90082ec2f_totals_over_+2.5",
@@ -159,18 +264,19 @@
           "selection": "Plus de 2.5 buts",
           "odd": 1.82,
           "estimated": true,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "4-1"
         }
       ],
       "stake": 0.7,
       "placed_at": "2026-11-03T20:03:08Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.27
+      "status": "GAGNE",
+      "payout": 1.27,
+      "profit": 0.57,
+      "settled_at": "2026-11-05T10:30:01Z",
+      "final_score": "4-1",
+      "potential_payout": 1.27,
+      "settled_odd": 1.82
     },
     "f43ef699c987e112e115f7035114854e_team_totals_aek-athens-over_+0.5": {
       "id": "f43ef699c987e112e115f7035114854e_team_totals_aek-athens-over_+0.5",
@@ -207,18 +313,19 @@
           "selection": "AEK Athens : plus de 0.5 but",
           "odd": 1.49,
           "estimated": true,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "2-3"
         }
       ],
       "stake": 1.0,
       "placed_at": "2026-11-03T20:03:08Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.49
+      "status": "GAGNE",
+      "payout": 1.49,
+      "profit": 0.49,
+      "settled_at": "2026-11-05T10:30:01Z",
+      "final_score": "2-3",
+      "potential_payout": 1.49,
+      "settled_odd": 1.49
     },
     "013cecbf40f5b4530342632a80f35b00_dnb_como": {
       "id": "013cecbf40f5b4530342632a80f35b00_dnb_como",
@@ -255,18 +362,19 @@
           "selection": "Como (remboursé si nul)",
           "odd": 1.53,
           "estimated": true,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "1-9"
         }
       ],
       "stake": 1.0,
       "placed_at": "2026-11-03T20:03:08Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.53
+      "status": "GAGNE",
+      "payout": 1.53,
+      "profit": 0.53,
+      "settled_at": "2026-11-05T10:30:01Z",
+      "final_score": "1-9",
+      "potential_payout": 1.53,
+      "settled_odd": 1.53
     },
     "0b5966b7b96eb844618eea8f215a0c71_h2h_new-orleans-pelicans": {
       "id": "0b5966b7b96eb844618eea8f215a0c71_h2h_new-orleans-pelicans",
@@ -303,18 +411,19 @@
           "selection": "New Orleans Pelicans",
           "odd": 1.43,
           "estimated": false,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "120-113"
         }
       ],
       "stake": 0.68,
       "placed_at": "2026-11-04T10:36:54Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 0.97
+      "status": "GAGNE",
+      "payout": 0.97,
+      "profit": 0.29,
+      "settled_at": "2026-11-05T10:30:01Z",
+      "final_score": "120-113",
+      "potential_payout": 0.97,
+      "settled_odd": 1.43
     },
     "a5910ae3b314876faea7f5c03b8aeaad_team_totals_slavia-praha-over_+0.5": {
       "id": "a5910ae3b314876faea7f5c03b8aeaad_team_totals_slavia-praha-over_+0.5",
@@ -351,18 +460,19 @@
           "selection": "Slavia Praha : plus de 0.5 but",
           "odd": 2.33,
           "estimated": true,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "1-2"
         }
       ],
       "stake": 0.5,
       "placed_at": "2026-11-04T10:36:54Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.17
+      "status": "GAGNE",
+      "payout": 1.17,
+      "profit": 0.67,
+      "settled_at": "2026-11-05T10:30:01Z",
+      "final_score": "1-2",
+      "potential_payout": 1.17,
+      "settled_odd": 2.33
     },
     "6d386ed81fabf67aa19fbd442c0d8c60_spreads_real-betis_+1.5": {
       "id": "6d386ed81fabf67aa19fbd442c0d8c60_spreads_real-betis_+1.5",
@@ -399,18 +509,19 @@
           "selection": "Real Betis +1.5",
           "odd": 1.4,
           "estimated": true,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "2-1"
         }
       ],
       "stake": 0.68,
       "placed_at": "2026-11-04T10:36:54Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 0.95
+      "status": "GAGNE",
+      "payout": 0.95,
+      "profit": 0.27,
+      "settled_at": "2026-11-05T10:30:01Z",
+      "final_score": "2-1",
+      "potential_payout": 0.95,
+      "settled_odd": 1.4
     },
     "combo_20261104": {
       "id": "combo_20261104",
@@ -448,8 +559,8 @@
           "odd": 1.31,
           "estimated": false,
           "headline": "Memphis Grizzlies : 2V-1D à domicile, forme VVVVD contre DDDDD pour Indiana Pacers",
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "PERDU",
+          "final_score": "103-107"
         },
         {
           "event_id": "e901dbcdd6e2255fb24d84032b9d437a",
@@ -468,18 +579,300 @@
           "odd": 1.31,
           "estimated": true,
           "headline": "Fenerbahce marque 1,8 buts/match, Liverpool en encaisse 1,4",
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "3-2"
         }
       ],
       "stake": 0.5,
       "placed_at": "2026-11-04T10:36:54Z",
+      "status": "PERDU",
+      "payout": 0.0,
+      "profit": -0.5,
+      "settled_at": "2026-11-05T10:30:01Z",
+      "final_score": "103-107 · 3-2",
+      "potential_payout": 0.86,
+      "settled_odd": 1.72
+    },
+    "402e102fa845ed84ab7e59b3b17f8c29_totals_over_+2.5": {
+      "id": "402e102fa845ed84ab7e59b3b17f8c29_totals_over_+2.5",
+      "kind": "SIMPLE",
+      "label": "Torreense vs FC Ararat-Armenia · Plus de 2.5 buts",
+      "sport": "Football",
+      "competition": "Ligue Europa",
+      "match": "Torreense vs FC Ararat-Armenia",
+      "kickoff": "2026-11-05T20:00:00Z",
+      "market": "totals",
+      "market_label": "Total de buts (Plus/Moins)",
+      "selection": "Plus de 2.5 buts",
+      "odd": 1.87,
+      "estimated": true,
+      "profile": "SWEET_SPOT",
+      "score": 49,
+      "fair_prob": 0.4833,
+      "ev": -0.0981,
+      "headline": "4,0 buts attendus : Torreense 1,3 marqués/2,3 encaissés, FC Ararat-Armenia 0,7/3,7 par match",
+      "legs": [
+        {
+          "event_id": "402e102fa845ed84ab7e59b3b17f8c29",
+          "sport_key": "soccer_uefa_europa_league",
+          "sport": "Football",
+          "competition": "Ligue Europa",
+          "home": "Torreense",
+          "away": "FC Ararat-Armenia",
+          "match": "Torreense vs FC Ararat-Armenia",
+          "kickoff": "2026-11-05T20:00:00Z",
+          "market": "totals",
+          "market_label": "Total de buts (Plus/Moins)",
+          "outcome_name": "Over",
+          "point": 2.5,
+          "selection": "Plus de 2.5 buts",
+          "odd": 1.87,
+          "estimated": true,
+          "status": "EN_ATTENTE",
+          "final_score": null
+        }
+      ],
+      "stake": 0.91,
+      "placed_at": "2026-11-05T10:30:01Z",
       "status": "EN_ATTENTE",
       "payout": null,
       "profit": null,
       "settled_at": null,
       "final_score": null,
-      "potential_payout": 0.86
+      "potential_payout": 1.7
+    },
+    "c50815d0a3cbc7dfe6b9f3a737ce4836_h2h_lillestrom": {
+      "id": "c50815d0a3cbc7dfe6b9f3a737ce4836_h2h_lillestrom",
+      "kind": "SIMPLE",
+      "label": "Lillestrom vs Viktoria Plzeň · Lillestrom",
+      "sport": "Football",
+      "competition": "Ligue Europa",
+      "match": "Lillestrom vs Viktoria Plzeň",
+      "kickoff": "2026-11-05T17:45:00Z",
+      "market": "h2h",
+      "market_label": "Vainqueur du match",
+      "selection": "Lillestrom",
+      "odd": 2.8,
+      "estimated": false,
+      "profile": "AUDACIEUX",
+      "score": 46,
+      "fair_prob": 0.3241,
+      "ev": -0.0926,
+      "headline": "Lillestrom : 6V-1N-7D à domicile, forme NVDVV contre DDD pour Viktoria Plzeň",
+      "legs": [
+        {
+          "event_id": "c50815d0a3cbc7dfe6b9f3a737ce4836",
+          "sport_key": "soccer_uefa_europa_league",
+          "sport": "Football",
+          "competition": "Ligue Europa",
+          "home": "Lillestrom",
+          "away": "Viktoria Plzeň",
+          "match": "Lillestrom vs Viktoria Plzeň",
+          "kickoff": "2026-11-05T17:45:00Z",
+          "market": "h2h",
+          "market_label": "Vainqueur du match",
+          "outcome_name": "Lillestrom",
+          "point": null,
+          "selection": "Lillestrom",
+          "odd": 2.8,
+          "estimated": false,
+          "status": "EN_ATTENTE",
+          "final_score": null
+        }
+      ],
+      "stake": 0.65,
+      "placed_at": "2026-11-05T10:30:01Z",
+      "status": "EN_ATTENTE",
+      "payout": null,
+      "profit": null,
+      "settled_at": null,
+      "final_score": null,
+      "potential_payout": 1.82
+    },
+    "d437cbfcee6b57ec58d464e6b459c56e_totals_under_+3.5": {
+      "id": "d437cbfcee6b57ec58d464e6b459c56e_totals_under_+3.5",
+      "kind": "SIMPLE",
+      "label": "Sparta Prague vs Bournemouth · Moins de 3.5 buts",
+      "sport": "Football",
+      "competition": "Ligue Europa",
+      "match": "Sparta Prague vs Bournemouth",
+      "kickoff": "2026-11-05T17:45:00Z",
+      "market": "totals",
+      "market_label": "Total de buts (Plus/Moins)",
+      "selection": "Moins de 3.5 buts",
+      "odd": 1.82,
+      "estimated": true,
+      "profile": "SWEET_SPOT",
+      "score": 46,
+      "fair_prob": 0.4963,
+      "ev": -0.0982,
+      "headline": "2,8 buts attendus : Sparta Prague 1,7 marqués/1,0 encaissés, Bournemouth 2,1/0,7 par match",
+      "legs": [
+        {
+          "event_id": "d437cbfcee6b57ec58d464e6b459c56e",
+          "sport_key": "soccer_uefa_europa_league",
+          "sport": "Football",
+          "competition": "Ligue Europa",
+          "home": "Sparta Prague",
+          "away": "Bournemouth",
+          "match": "Sparta Prague vs Bournemouth",
+          "kickoff": "2026-11-05T17:45:00Z",
+          "market": "totals",
+          "market_label": "Total de buts (Plus/Moins)",
+          "outcome_name": "Under",
+          "point": 3.5,
+          "selection": "Moins de 3.5 buts",
+          "odd": 1.82,
+          "estimated": true,
+          "status": "EN_ATTENTE",
+          "final_score": null
+        }
+      ],
+      "stake": 0.91,
+      "placed_at": "2026-11-05T10:30:01Z",
+      "status": "EN_ATTENTE",
+      "payout": null,
+      "profit": null,
+      "settled_at": null,
+      "final_score": null,
+      "potential_payout": 1.66
+    },
+    "84b68e09ecbe93fdbce759cd822322a2_h2h_sk-sturm-graz": {
+      "id": "84b68e09ecbe93fdbce759cd822322a2_h2h_sk-sturm-graz",
+      "kind": "SIMPLE",
+      "label": "SK Sturm Graz vs NK Celje · SK Sturm Graz",
+      "sport": "Football",
+      "competition": "Ligue Europa",
+      "match": "SK Sturm Graz vs NK Celje",
+      "kickoff": "2026-11-05T20:00:00Z",
+      "market": "h2h",
+      "market_label": "Vainqueur du match",
+      "selection": "SK Sturm Graz",
+      "odd": 1.44,
+      "estimated": false,
+      "profile": "SAFE",
+      "score": 45,
+      "fair_prob": 0.6372,
+      "ev": -0.0825,
+      "headline": "SK Sturm Graz : 4V-3N-0D à domicile, forme DVVNN contre DDN pour NK Celje",
+      "legs": [
+        {
+          "event_id": "84b68e09ecbe93fdbce759cd822322a2",
+          "sport_key": "soccer_uefa_europa_league",
+          "sport": "Football",
+          "competition": "Ligue Europa",
+          "home": "SK Sturm Graz",
+          "away": "NK Celje",
+          "match": "SK Sturm Graz vs NK Celje",
+          "kickoff": "2026-11-05T20:00:00Z",
+          "market": "h2h",
+          "market_label": "Vainqueur du match",
+          "outcome_name": "SK Sturm Graz",
+          "point": null,
+          "selection": "SK Sturm Graz",
+          "odd": 1.44,
+          "estimated": false,
+          "status": "EN_ATTENTE",
+          "final_score": null
+        }
+      ],
+      "stake": 1.3,
+      "placed_at": "2026-11-05T10:30:01Z",
+      "status": "EN_ATTENTE",
+      "payout": null,
+      "profit": null,
+      "settled_at": null,
+      "final_score": null,
+      "potential_payout": 1.87
+    },
+    "combo_20261105": {
+      "id": "combo_20261105",
+      "kind": "COMBINE",
+      "label": "Combiné du jour · 3 sélections",
+      "sport": "Multi",
+      "competition": "Ligue Europa",
+      "match": "Hapoel Be'er Sheva vs OFI Crete + Crystal Palace vs TSG Hoffenheim + Anderlecht vs Salzburg",
+      "kickoff": "2026-11-05T20:00:00Z",
+      "market": "combo",
+      "market_label": "Combiné",
+      "selection": "Hapoel Be'er Sheva : plus de 0.5 but + TSG Hoffenheim : plus de 0.5 but + Salzburg +1.5",
+      "odd": 1.74,
+      "estimated": true,
+      "profile": "COMBINE",
+      "score": 100,
+      "fair_prob": 0.4262,
+      "ev": -0.2584,
+      "headline": "3 sélections, 43 % de réussite combinée selon Pinnacle",
+      "legs": [
+        {
+          "event_id": "2af127e906ae56f3543d283b85f7b54e",
+          "sport_key": "soccer_uefa_europa_league",
+          "sport": "Football",
+          "competition": "Ligue Europa",
+          "home": "Hapoel Be'er Sheva",
+          "away": "OFI Crete",
+          "match": "Hapoel Be'er Sheva vs OFI Crete",
+          "kickoff": "2026-11-05T20:00:00Z",
+          "market": "team_totals",
+          "market_label": "Buts d'une équipe",
+          "outcome_name": "Hapoel Be'er Sheva Over",
+          "point": 0.5,
+          "selection": "Hapoel Be'er Sheva : plus de 0.5 but",
+          "odd": 1.16,
+          "estimated": true,
+          "headline": "Hapoel Be'er Sheva marque 1,7 buts/match, OFI Crete en encaisse 1,5",
+          "status": "EN_ATTENTE",
+          "final_score": null
+        },
+        {
+          "event_id": "2347e0e7725940f6a14d5a80601390a5",
+          "sport_key": "soccer_uefa_europa_league",
+          "sport": "Football",
+          "competition": "Ligue Europa",
+          "home": "Crystal Palace",
+          "away": "TSG Hoffenheim",
+          "match": "Crystal Palace vs TSG Hoffenheim",
+          "kickoff": "2026-11-05T17:45:00Z",
+          "market": "team_totals",
+          "market_label": "Buts d'une équipe",
+          "outcome_name": "TSG Hoffenheim Over",
+          "point": 0.5,
+          "selection": "TSG Hoffenheim : plus de 0.5 but",
+          "odd": 1.17,
+          "estimated": true,
+          "headline": "TSG Hoffenheim marque 1,8 buts/match, Crystal Palace en encaisse 2,4",
+          "status": "EN_ATTENTE",
+          "final_score": null
+        },
+        {
+          "event_id": "9604c5b1c465435911e038db95ab2a7b",
+          "sport_key": "soccer_uefa_europa_league",
+          "sport": "Football",
+          "competition": "Ligue Europa",
+          "home": "Anderlecht",
+          "away": "Salzburg",
+          "match": "Anderlecht vs Salzburg",
+          "kickoff": "2026-11-05T17:45:00Z",
+          "market": "spreads",
+          "market_label": "Handicap",
+          "outcome_name": "Salzburg",
+          "point": 1.5,
+          "selection": "Salzburg +1.5",
+          "odd": 1.28,
+          "estimated": true,
+          "headline": "Différence par match : Salzburg +1,4, Anderlecht +0,2",
+          "status": "EN_ATTENTE",
+          "final_score": null
+        }
+      ],
+      "stake": 0.65,
+      "placed_at": "2026-11-05T10:30:01Z",
+      "status": "EN_ATTENTE",
+      "payout": null,
+      "profit": null,
+      "settled_at": null,
+      "final_score": null,
+      "potential_payout": 1.13
     }
   }
 }

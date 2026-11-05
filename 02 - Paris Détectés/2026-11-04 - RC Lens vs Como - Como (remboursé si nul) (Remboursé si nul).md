@@ -12,8 +12,8 @@ fair_odd_pinnacle: 1.696
 probabilite_reelle: 58.98
 ev_percent: -8.99
 mise_recommandee: 1.0
-statut: EN_ATTENTE
-profit: 0
+statut: GAGNE
+profit: 0.53
 type: pari
 id: 013cecbf40f5b4530342632a80f35b00_dnb_como
 type_marche: dnb
@@ -37,6 +37,8 @@ sport_key: soccer_uefa_champs_league
 event_id: 013cecbf40f5b4530342632a80f35b00
 liens: ['[[Football]]', '[[Ligue des Champions]]']
 tags: [pari, football, profil/safe]
+score_final: 1-9
+regle_le: 2026-11-05T11:30
 ---
 
 # 🛡️ SAFE — RC Lens vs Como : Como (remboursé si nul)
@@ -112,6 +114,9 @@ tags: [pari, football, profil/safe]
 
 ## Historique des cotes
 - 03/11 21:03 — Betclic ≈ 1.54 (estimée, minimum 1.53) · fair 1.696 · EV -8.99 %
+
+> [!success] Réglé automatiquement le 05/11/2026 à 11:30
+> ✅ Gagné · score final 1-9 · profit **+0.53 €**
 
 ## Suivi
 

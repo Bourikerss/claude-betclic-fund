@@ -12,8 +12,8 @@ fair_odd_pinnacle: 1.652
 probabilite_reelle: 60.54
 ev_percent: -9.16
 mise_recommandee: 1.0
-statut: EN_ATTENTE
-profit: 0
+statut: GAGNE
+profit: 0.49
 type: pari
 id: f43ef699c987e112e115f7035114854e_team_totals_aek-athens-over_+0.5
 type_marche: team_totals
@@ -37,6 +37,8 @@ sport_key: soccer_uefa_champs_league
 event_id: f43ef699c987e112e115f7035114854e
 liens: ['[[Football]]', '[[Ligue des Champions]]']
 tags: [pari, football, profil/safe]
+score_final: 2-3
+regle_le: 2026-11-05T11:30
 ---
 
 # 🛡️ SAFE — AEK Athens vs Real Madrid : AEK Athens : plus de 0.5 but
@@ -113,6 +115,9 @@ tags: [pari, football, profil/safe]
 
 ## Historique des cotes
 - 03/11 21:03 — Betclic ≈ 1.50 (estimée, minimum 1.49) · fair 1.652 · EV -9.16 %
+
+> [!success] Réglé automatiquement le 05/11/2026 à 11:30
+> ✅ Gagné · score final 2-3 · profit **+0.49 €**
 
 ## Suivi
 

@@ -12,8 +12,8 @@ fair_odd_pinnacle: 2.705
 probabilite_reelle: 36.96
 ev_percent: -9.02
 mise_recommandee: 0.5
-statut: EN_ATTENTE
-profit: 0
+statut: GAGNE
+profit: 0.72
 type: pari
 id: df7d2d81b9e2f3f11c6aeddaee6b7085_team_totals_rb-leipzig-over_+1.5
 type_marche: team_totals
@@ -37,6 +37,8 @@ sport_key: soccer_uefa_champs_league
 event_id: df7d2d81b9e2f3f11c6aeddaee6b7085
 liens: ['[[Football]]', '[[Ligue des Champions]]']
 tags: [pari, football, profil/audacieux]
+score_final: 2-3
+regle_le: 2026-11-05T11:30
 ---
 
 # 🔥 AUDACIEUX — RB Leipzig vs Manchester City : RB Leipzig : plus de 1.5 buts
@@ -113,6 +115,9 @@ tags: [pari, football, profil/audacieux]
 
 ## Historique des cotes
 - 03/11 21:03 — Betclic ≈ 2.46 (estimée, minimum 2.44) · fair 2.705 · EV -9.02 %
+
+> [!success] Réglé automatiquement le 05/11/2026 à 11:30
+> ✅ Gagné · score final 2-3 · profit **+0.72 €**
 
 ## Suivi
 

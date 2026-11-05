@@ -12,8 +12,8 @@ fair_odd_pinnacle: 1.51
 probabilite_reelle: 66.2
 ev_percent: -5.33
 mise_recommandee: 0.68
-statut: EN_ATTENTE
-profit: 0
+statut: GAGNE
+profit: 0.29
 type: pari
 id: 0b5966b7b96eb844618eea8f215a0c71_h2h_new-orleans-pelicans
 type_marche: h2h
@@ -37,6 +37,8 @@ sport_key: basketball_nba
 event_id: 0b5966b7b96eb844618eea8f215a0c71
 liens: ['[[Basketball]]', '[[NBA]]']
 tags: [pari, basketball, profil/safe]
+score_final: 120-113
+regle_le: 2026-11-05T11:30
 ---
 
 # 🛡️ SAFE — New Orleans Pelicans vs Utah Jazz : New Orleans Pelicans
@@ -111,6 +113,9 @@ tags: [pari, basketball, profil/safe]
 
 ## Historique des cotes
 - 04/11 11:36 — Betclic **1.43** · fair 1.510 · EV -5.33 %
+
+> [!success] Réglé automatiquement le 05/11/2026 à 11:30
+> ✅ Gagné · score final 120-113 · profit **+0.29 €**
 
 ## Suivi
 

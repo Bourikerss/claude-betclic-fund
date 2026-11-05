@@ -12,8 +12,8 @@ fair_odd_pinnacle: 1.552
 probabilite_reelle: 64.42
 ev_percent: -8.13
 mise_recommandee: 0.68
-statut: EN_ATTENTE
-profit: 0
+statut: GAGNE
+profit: 0.27
 type: pari
 id: 6d386ed81fabf67aa19fbd442c0d8c60_spreads_real-betis_+1.5
 type_marche: spreads
@@ -37,6 +37,8 @@ sport_key: soccer_uefa_champs_league
 event_id: 6d386ed81fabf67aa19fbd442c0d8c60
 liens: ['[[Football]]', '[[Ligue des Champions]]']
 tags: [pari, football, profil/safe]
+score_final: 2-1
+regle_le: 2026-11-05T11:30
 ---
 
 # 🛡️ SAFE — Borussia Dortmund vs Real Betis : Real Betis +1.5
@@ -112,6 +114,9 @@ tags: [pari, football, profil/safe]
 
 ## Historique des cotes
 - 04/11 11:36 — Betclic ≈ 1.43 (estimée, minimum 1.4) · fair 1.552 · EV -8.13 %
+
+> [!success] Réglé automatiquement le 05/11/2026 à 11:30
+> ✅ Gagné · score final 2-1 · profit **+0.27 €**
 
 ## Suivi
 

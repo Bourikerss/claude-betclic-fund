@@ -12,8 +12,8 @@ fair_odd_pinnacle: 2.014
 probabilite_reelle: 49.65
 ev_percent: -9.09
 mise_recommandee: 0.7
-statut: EN_ATTENTE
-profit: 0
+statut: GAGNE
+profit: 0.57
 type: pari
 id: ba82ee37f64a66a30d85f8b90082ec2f_totals_over_+2.5
 type_marche: totals
@@ -37,6 +37,8 @@ sport_key: soccer_uefa_champs_league
 event_id: ba82ee37f64a66a30d85f8b90082ec2f
 liens: ['[[Football]]', '[[Ligue des Champions]]']
 tags: [pari, football, profil/sweet_spot]
+score_final: 4-1
+regle_le: 2026-11-05T11:30
 ---
 
 # 🎯 SWEET SPOT — Porto vs Napoli : Plus de 2.5 buts
@@ -112,6 +114,9 @@ tags: [pari, football, profil/sweet_spot]
 
 ## Historique des cotes
 - 03/11 21:03 — Betclic ≈ 1.83 (estimée, minimum 1.82) · fair 2.014 · EV -9.09 %
+
+> [!success] Réglé automatiquement le 05/11/2026 à 11:30
+> ✅ Gagné · score final 4-1 · profit **+0.57 €**
 
 ## Suivi
 

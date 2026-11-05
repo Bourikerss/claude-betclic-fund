@@ -12,8 +12,8 @@ fair_odd_pinnacle: 2.581
 probabilite_reelle: 38.74
 ev_percent: -8.29
 mise_recommandee: 0.5
-statut: EN_ATTENTE
-profit: 0
+statut: GAGNE
+profit: 0.67
 type: pari
 id: a5910ae3b314876faea7f5c03b8aeaad_team_totals_slavia-praha-over_+0.5
 type_marche: team_totals
@@ -37,6 +37,8 @@ sport_key: soccer_uefa_champs_league
 event_id: a5910ae3b314876faea7f5c03b8aeaad
 liens: ['[[Football]]', '[[Ligue des Champions]]']
 tags: [pari, football, profil/audacieux]
+score_final: 1-2
+regle_le: 2026-11-05T11:30
 ---
 
 # 🔥 AUDACIEUX — Slavia Praha vs Arsenal : Slavia Praha : plus de 0.5 but
@@ -111,6 +113,9 @@ tags: [pari, football, profil/audacieux]
 
 ## Historique des cotes
 - 04/11 11:36 — Betclic ≈ 2.37 (estimée, minimum 2.33) · fair 2.581 · EV -8.29 %
+
+> [!success] Réglé automatiquement le 05/11/2026 à 11:30
+> ✅ Gagné · score final 1-2 · profit **+0.67 €**
 
 ## Suivi
 
