@@ -12,8 +12,8 @@ fair_odd_pinnacle: 1.569
 probabilite_reelle: 63.72
 ev_percent: -8.25
 mise_recommandee: 1.3
-statut: EN_ATTENTE
-profit: 0
+statut: PERDU
+profit: -1.3
 type: pari
 id: 84b68e09ecbe93fdbce759cd822322a2_h2h_sk-sturm-graz
 type_marche: h2h
@@ -37,6 +37,8 @@ sport_key: soccer_uefa_europa_league
 event_id: 84b68e09ecbe93fdbce759cd822322a2
 liens: ['[[Football]]', '[[Ligue Europa]]']
 tags: [pari, football, profil/safe]
+score_final: 2-3
+regle_le: 2026-11-06T11:30
 ---
 
 # 🛡️ SAFE — SK Sturm Graz vs NK Celje : SK Sturm Graz
@@ -109,6 +111,9 @@ tags: [pari, football, profil/safe]
 
 ## Historique des cotes
 - 05/11 11:30 — Betclic **1.44** · fair 1.569 · EV -8.25 %
+
+> [!success] Réglé automatiquement le 06/11/2026 à 11:30
+> ❌ Perdu · score final 2-3 · profit **-1.30 €**
 
 ## Suivi
 

@@ -12,8 +12,8 @@ fair_odd_pinnacle: 2.346
 probabilite_reelle: 42.62
 ev_percent: -25.84
 mise_recommandee: 0.65
-statut: EN_ATTENTE
-profit: 0
+statut: PERDU
+profit: -0.65
 type: pari
 id: combo_20261105
 type_marche: combo
@@ -22,6 +22,8 @@ bankroll_reference: 13.04
 detecte_le: 2026-11-05T11:30
 liens: ['[[Football]]', '[[Ligue Europa]]']
 tags: [pari, combine, profil/combine]
+score_final: 0-2 · 1-1 · 2-0
+regle_le: 2026-11-06T11:30
 ---
 
 # 🧩 Combiné du jour — 05/11/2026
@@ -43,7 +45,8 @@ EV -25.8 % : les marges de chaque sélection se multiplient dans un combiné.
 
 ## Résultat
 
-En attente : réglé automatiquement par `auto_settle` (scores ESPN).
+> [!success] Réglé automatiquement le 06/11/2026 à 11:30
+> ❌ Perdu · score final 0-2 · 1-1 · 2-0 · profit **-0.65 €**
 
 ## Notes personnelles
 

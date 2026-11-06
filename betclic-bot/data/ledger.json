@@ -177,6 +177,78 @@
       "bet_id": "combo_20261105",
       "amount": -0.65,
       "balance": 8.62
+    },
+    {
+      "date": "2026-11-06T10:30:03Z",
+      "type": "GAIN",
+      "label": "Gain · Torreense vs FC Ararat-Armenia · Plus de 2.5 buts",
+      "bet_id": "402e102fa845ed84ab7e59b3b17f8c29_totals_over_+2.5",
+      "amount": 1.7,
+      "balance": 10.32
+    },
+    {
+      "date": "2026-11-06T10:30:03Z",
+      "type": "PERTE",
+      "label": "Perte · Lillestrom vs Viktoria Plzeň · Lillestrom",
+      "bet_id": "c50815d0a3cbc7dfe6b9f3a737ce4836_h2h_lillestrom",
+      "amount": 0.0,
+      "balance": 10.32
+    },
+    {
+      "date": "2026-11-06T10:30:03Z",
+      "type": "PERTE",
+      "label": "Perte · Sparta Prague vs Bournemouth · Moins de 3.5 buts",
+      "bet_id": "d437cbfcee6b57ec58d464e6b459c56e_totals_under_+3.5",
+      "amount": 0.0,
+      "balance": 10.32
+    },
+    {
+      "date": "2026-11-06T10:30:03Z",
+      "type": "PERTE",
+      "label": "Perte · SK Sturm Graz vs NK Celje · SK Sturm Graz",
+      "bet_id": "84b68e09ecbe93fdbce759cd822322a2_h2h_sk-sturm-graz",
+      "amount": 0.0,
+      "balance": 10.32
+    },
+    {
+      "date": "2026-11-06T10:30:03Z",
+      "type": "PERTE",
+      "label": "Perte · Combiné du jour · 3 sélections",
+      "bet_id": "combo_20261105",
+      "amount": 0.0,
+      "balance": 10.32
+    },
+    {
+      "date": "2026-11-06T10:30:03Z",
+      "type": "MISE",
+      "label": "Mise · Everton vs Coventry City · Les 2 équipes marquent : Non",
+      "bet_id": "586bec023ee8ac2f0645d963bd2c9d25_btts_no",
+      "amount": -0.72,
+      "balance": 9.6
+    },
+    {
+      "date": "2026-11-06T10:30:03Z",
+      "type": "MISE",
+      "label": "Mise · Sevilla vs Alavés · Alavés : plus de 0.5 but",
+      "bet_id": "9dd0014685fd62d9b2890d7c33a8c9ab_team_totals_alaves-over_+0.5",
+      "amount": -1.03,
+      "balance": 8.57
+    },
+    {
+      "date": "2026-11-06T10:30:03Z",
+      "type": "MISE",
+      "label": "Mise · Hamburger SV vs Borussia Monchengladbach · Borussia Monchengladbach : plus de 1.5 buts",
+      "bet_id": "295076c39e49863cb54db085ac3cd340_team_totals_borussia-monchengladbach-over_+1.5",
+      "amount": -0.52,
+      "balance": 8.05
+    },
+    {
+      "date": "2026-11-06T10:30:03Z",
+      "type": "MISE",
+      "label": "Mise · Combiné du jour · 2 sélections",
+      "bet_id": "combo_20261106",
+      "amount": -0.52,
+      "balance": 7.53
     }
   ],
   "bets": {
@@ -628,18 +700,19 @@
           "selection": "Plus de 2.5 buts",
           "odd": 1.87,
           "estimated": true,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "3-2"
         }
       ],
       "stake": 0.91,
       "placed_at": "2026-11-05T10:30:01Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.7
+      "status": "GAGNE",
+      "payout": 1.7,
+      "profit": 0.79,
+      "settled_at": "2026-11-06T10:30:03Z",
+      "final_score": "3-2",
+      "potential_payout": 1.7,
+      "settled_odd": 1.87
     },
     "c50815d0a3cbc7dfe6b9f3a737ce4836_h2h_lillestrom": {
       "id": "c50815d0a3cbc7dfe6b9f3a737ce4836_h2h_lillestrom",
@@ -676,18 +749,19 @@
           "selection": "Lillestrom",
           "odd": 2.8,
           "estimated": false,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "PERDU",
+          "final_score": "0-1"
         }
       ],
       "stake": 0.65,
       "placed_at": "2026-11-05T10:30:01Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.82
+      "status": "PERDU",
+      "payout": 0.0,
+      "profit": -0.65,
+      "settled_at": "2026-11-06T10:30:03Z",
+      "final_score": "0-1",
+      "potential_payout": 1.82,
+      "settled_odd": 2.8
     },
     "d437cbfcee6b57ec58d464e6b459c56e_totals_under_+3.5": {
       "id": "d437cbfcee6b57ec58d464e6b459c56e_totals_under_+3.5",
@@ -724,18 +798,19 @@
           "selection": "Moins de 3.5 buts",
           "odd": 1.82,
           "estimated": true,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "PERDU",
+          "final_score": "1-3"
         }
       ],
       "stake": 0.91,
       "placed_at": "2026-11-05T10:30:01Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.66
+      "status": "PERDU",
+      "payout": 0.0,
+      "profit": -0.91,
+      "settled_at": "2026-11-06T10:30:03Z",
+      "final_score": "1-3",
+      "potential_payout": 1.66,
+      "settled_odd": 1.82
     },
     "84b68e09ecbe93fdbce759cd822322a2_h2h_sk-sturm-graz": {
       "id": "84b68e09ecbe93fdbce759cd822322a2_h2h_sk-sturm-graz",
@@ -772,18 +847,19 @@
           "selection": "SK Sturm Graz",
           "odd": 1.44,
           "estimated": false,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "PERDU",
+          "final_score": "2-3"
         }
       ],
       "stake": 1.3,
       "placed_at": "2026-11-05T10:30:01Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.87
+      "status": "PERDU",
+      "payout": 0.0,
+      "profit": -1.3,
+      "settled_at": "2026-11-06T10:30:03Z",
+      "final_score": "2-3",
+      "potential_payout": 1.87,
+      "settled_odd": 1.44
     },
     "combo_20261105": {
       "id": "combo_20261105",
@@ -821,8 +897,8 @@
           "odd": 1.16,
           "estimated": true,
           "headline": "Hapoel Be'er Sheva marque 1,7 buts/match, OFI Crete en encaisse 1,5",
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "PERDU",
+          "final_score": "0-2"
         },
         {
           "event_id": "2347e0e7725940f6a14d5a80601390a5",
@@ -841,8 +917,8 @@
           "odd": 1.17,
           "estimated": true,
           "headline": "TSG Hoffenheim marque 1,8 buts/match, Crystal Palace en encaisse 2,4",
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "1-1"
         },
         {
           "event_id": "9604c5b1c465435911e038db95ab2a7b",
@@ -861,18 +937,232 @@
           "odd": 1.28,
           "estimated": true,
           "headline": "Différence par match : Salzburg +1,4, Anderlecht +0,2",
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "PERDU",
+          "final_score": "2-0"
         }
       ],
       "stake": 0.65,
       "placed_at": "2026-11-05T10:30:01Z",
+      "status": "PERDU",
+      "payout": 0.0,
+      "profit": -0.65,
+      "settled_at": "2026-11-06T10:30:03Z",
+      "final_score": "0-2 · 1-1 · 2-0",
+      "potential_payout": 1.13,
+      "settled_odd": 1.74
+    },
+    "586bec023ee8ac2f0645d963bd2c9d25_btts_no": {
+      "id": "586bec023ee8ac2f0645d963bd2c9d25_btts_no",
+      "kind": "SIMPLE",
+      "label": "Everton vs Coventry City · Les 2 équipes marquent : Non",
+      "sport": "Football",
+      "competition": "Premier League",
+      "match": "Everton vs Coventry City",
+      "kickoff": "2026-11-06T20:00:00Z",
+      "market": "btts",
+      "market_label": "Les deux équipes marquent",
+      "selection": "Les 2 équipes marquent : Non",
+      "odd": 1.79,
+      "estimated": true,
+      "profile": "SWEET_SPOT",
+      "score": 46,
+      "fair_prob": 0.5053,
+      "ev": -0.0896,
+      "headline": "Everton n'a encaissé que dans 5/9 matchs",
+      "legs": [
+        {
+          "event_id": "586bec023ee8ac2f0645d963bd2c9d25",
+          "sport_key": "soccer_epl",
+          "sport": "Football",
+          "competition": "Premier League",
+          "home": "Everton",
+          "away": "Coventry City",
+          "match": "Everton vs Coventry City",
+          "kickoff": "2026-11-06T20:00:00Z",
+          "market": "btts",
+          "market_label": "Les deux équipes marquent",
+          "outcome_name": "No",
+          "point": null,
+          "selection": "Les 2 équipes marquent : Non",
+          "odd": 1.79,
+          "estimated": true,
+          "status": "EN_ATTENTE",
+          "final_score": null
+        }
+      ],
+      "stake": 0.72,
+      "placed_at": "2026-11-06T10:30:03Z",
       "status": "EN_ATTENTE",
       "payout": null,
       "profit": null,
       "settled_at": null,
       "final_score": null,
-      "potential_payout": 1.13
+      "potential_payout": 1.29
+    },
+    "9dd0014685fd62d9b2890d7c33a8c9ab_team_totals_alaves-over_+0.5": {
+      "id": "9dd0014685fd62d9b2890d7c33a8c9ab_team_totals_alaves-over_+0.5",
+      "kind": "SIMPLE",
+      "label": "Sevilla vs Alavés · Alavés : plus de 0.5 but",
+      "sport": "Football",
+      "competition": "La Liga",
+      "match": "Sevilla vs Alavés",
+      "kickoff": "2026-11-06T20:00:00Z",
+      "market": "team_totals",
+      "market_label": "Buts d'une équipe",
+      "selection": "Alavés : plus de 0.5 but",
+      "odd": 1.46,
+      "estimated": true,
+      "profile": "SAFE",
+      "score": 45,
+      "fair_prob": 0.6171,
+      "ev": -0.0827,
+      "headline": "Alavés marque 1,1 buts/match, Sevilla en encaisse 2,1",
+      "legs": [
+        {
+          "event_id": "9dd0014685fd62d9b2890d7c33a8c9ab",
+          "sport_key": "soccer_spain_la_liga",
+          "sport": "Football",
+          "competition": "La Liga",
+          "home": "Sevilla",
+          "away": "Alavés",
+          "match": "Sevilla vs Alavés",
+          "kickoff": "2026-11-06T20:00:00Z",
+          "market": "team_totals",
+          "market_label": "Buts d'une équipe",
+          "outcome_name": "Alavés Over",
+          "point": 0.5,
+          "selection": "Alavés : plus de 0.5 but",
+          "odd": 1.46,
+          "estimated": true,
+          "status": "EN_ATTENTE",
+          "final_score": null
+        }
+      ],
+      "stake": 1.03,
+      "placed_at": "2026-11-06T10:30:03Z",
+      "status": "EN_ATTENTE",
+      "payout": null,
+      "profit": null,
+      "settled_at": null,
+      "final_score": null,
+      "potential_payout": 1.5
+    },
+    "295076c39e49863cb54db085ac3cd340_team_totals_borussia-monchengladbach-over_+1.5": {
+      "id": "295076c39e49863cb54db085ac3cd340_team_totals_borussia-monchengladbach-over_+1.5",
+      "kind": "SIMPLE",
+      "label": "Hamburger SV vs Borussia Monchengladbach · Borussia Monchengladbach : plus de 1.5 buts",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "match": "Hamburger SV vs Borussia Monchengladbach",
+      "kickoff": "2026-11-06T19:30:00Z",
+      "market": "team_totals",
+      "market_label": "Buts d'une équipe",
+      "selection": "Borussia Monchengladbach : plus de 1.5 buts",
+      "odd": 2.73,
+      "estimated": true,
+      "profile": "AUDACIEUX",
+      "score": 38,
+      "fair_prob": 0.3301,
+      "ev": -0.0929,
+      "headline": "Borussia Monchengladbach marque 1,5 buts/match, Hamburger SV en encaisse 2,0",
+      "legs": [
+        {
+          "event_id": "295076c39e49863cb54db085ac3cd340",
+          "sport_key": "soccer_germany_bundesliga",
+          "sport": "Football",
+          "competition": "Bundesliga",
+          "home": "Hamburger SV",
+          "away": "Borussia Monchengladbach",
+          "match": "Hamburger SV vs Borussia Monchengladbach",
+          "kickoff": "2026-11-06T19:30:00Z",
+          "market": "team_totals",
+          "market_label": "Buts d'une équipe",
+          "outcome_name": "Borussia Monchengladbach Over",
+          "point": 1.5,
+          "selection": "Borussia Monchengladbach : plus de 1.5 buts",
+          "odd": 2.73,
+          "estimated": true,
+          "status": "EN_ATTENTE",
+          "final_score": null
+        }
+      ],
+      "stake": 0.52,
+      "placed_at": "2026-11-06T10:30:03Z",
+      "status": "EN_ATTENTE",
+      "payout": null,
+      "profit": null,
+      "settled_at": null,
+      "final_score": null,
+      "potential_payout": 1.42
+    },
+    "combo_20261106": {
+      "id": "combo_20261106",
+      "kind": "COMBINE",
+      "label": "Combiné du jour · 2 sélections",
+      "sport": "Multi",
+      "competition": "NBA",
+      "match": "Dallas Mavericks vs Utah Jazz + Milwaukee Bucks vs Toronto Raptors",
+      "kickoff": "2026-11-07T01:10:00Z",
+      "market": "combo",
+      "market_label": "Combiné",
+      "selection": "Dallas Mavericks + Toronto Raptors",
+      "odd": 1.72,
+      "estimated": false,
+      "profile": "COMBINE",
+      "score": 87,
+      "fair_prob": 0.4879,
+      "ev": -0.1608,
+      "headline": "2 sélections, 49 % de réussite combinée selon Pinnacle",
+      "legs": [
+        {
+          "event_id": "62a92e31b546d31ba57caf792815bf65",
+          "sport_key": "basketball_nba",
+          "sport": "Basketball",
+          "competition": "NBA",
+          "home": "Dallas Mavericks",
+          "away": "Utah Jazz",
+          "match": "Dallas Mavericks vs Utah Jazz",
+          "kickoff": "2026-11-07T01:10:00Z",
+          "market": "h2h",
+          "market_label": "Vainqueur du match",
+          "outcome_name": "Dallas Mavericks",
+          "point": null,
+          "selection": "Dallas Mavericks",
+          "odd": 1.3,
+          "estimated": false,
+          "headline": "Dallas Mavericks : 2V-2D à domicile, forme VVVDD contre DDDDD pour Utah Jazz",
+          "status": "EN_ATTENTE",
+          "final_score": null
+        },
+        {
+          "event_id": "1c60a090180de530cfe273a5d6a381e6",
+          "sport_key": "basketball_nba",
+          "sport": "Basketball",
+          "competition": "NBA",
+          "home": "Milwaukee Bucks",
+          "away": "Toronto Raptors",
+          "match": "Milwaukee Bucks vs Toronto Raptors",
+          "kickoff": "2026-11-07T01:10:00Z",
+          "market": "h2h",
+          "market_label": "Vainqueur du match",
+          "outcome_name": "Toronto Raptors",
+          "point": null,
+          "selection": "Toronto Raptors",
+          "odd": 1.32,
+          "estimated": false,
+          "headline": "Toronto Raptors : 2V-3D à l'extérieur, forme VDDVD contre VDDDD pour Milwaukee Bucks",
+          "status": "EN_ATTENTE",
+          "final_score": null
+        }
+      ],
+      "stake": 0.52,
+      "placed_at": "2026-11-06T10:30:03Z",
+      "status": "EN_ATTENTE",
+      "payout": null,
+      "profit": null,
+      "settled_at": null,
+      "final_score": null,
+      "potential_payout": 0.89
     }
   }
 }

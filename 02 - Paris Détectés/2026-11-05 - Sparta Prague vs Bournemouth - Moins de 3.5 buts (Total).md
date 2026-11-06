@@ -12,8 +12,8 @@ fair_odd_pinnacle: 2.015
 probabilite_reelle: 49.63
 ev_percent: -9.82
 mise_recommandee: 0.91
-statut: EN_ATTENTE
-profit: 0
+statut: PERDU
+profit: -0.91
 type: pari
 id: d437cbfcee6b57ec58d464e6b459c56e_totals_under_+3.5
 type_marche: totals
@@ -37,6 +37,8 @@ sport_key: soccer_uefa_europa_league
 event_id: d437cbfcee6b57ec58d464e6b459c56e
 liens: ['[[Football]]', '[[Ligue Europa]]']
 tags: [pari, football, profil/sweet_spot]
+score_final: 1-3
+regle_le: 2026-11-06T11:30
 ---
 
 # 🎯 SWEET SPOT — Sparta Prague vs Bournemouth : Moins de 3.5 buts
@@ -110,6 +112,9 @@ tags: [pari, football, profil/sweet_spot]
 
 ## Historique des cotes
 - 05/11 11:30 — Betclic ≈ 1.82 (estimée, minimum 1.82) · fair 2.015 · EV -9.82 %
+
+> [!success] Réglé automatiquement le 06/11/2026 à 11:30
+> ❌ Perdu · score final 1-3 · profit **-0.91 €**
 
 ## Suivi
 

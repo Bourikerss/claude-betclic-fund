@@ -12,8 +12,8 @@ fair_odd_pinnacle: 3.086
 probabilite_reelle: 32.41
 ev_percent: -9.26
 mise_recommandee: 0.65
-statut: EN_ATTENTE
-profit: 0
+statut: PERDU
+profit: -0.65
 type: pari
 id: c50815d0a3cbc7dfe6b9f3a737ce4836_h2h_lillestrom
 type_marche: h2h
@@ -37,6 +37,8 @@ sport_key: soccer_uefa_europa_league
 event_id: c50815d0a3cbc7dfe6b9f3a737ce4836
 liens: ['[[Football]]', '[[Ligue Europa]]']
 tags: [pari, football, profil/audacieux]
+score_final: 0-1
+regle_le: 2026-11-06T11:30
 ---
 
 # 🔥 AUDACIEUX — Lillestrom vs Viktoria Plzeň : Lillestrom
@@ -110,6 +112,9 @@ tags: [pari, football, profil/audacieux]
 
 ## Historique des cotes
 - 05/11 11:30 — Betclic **2.8** · fair 3.086 · EV -9.26 %
+
+> [!success] Réglé automatiquement le 06/11/2026 à 11:30
+> ❌ Perdu · score final 0-1 · profit **-0.65 €**
 
 ## Suivi
 

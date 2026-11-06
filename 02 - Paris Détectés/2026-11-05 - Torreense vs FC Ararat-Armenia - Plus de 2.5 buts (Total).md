@@ -12,8 +12,8 @@ fair_odd_pinnacle: 2.069
 probabilite_reelle: 48.33
 ev_percent: -9.81
 mise_recommandee: 0.91
-statut: EN_ATTENTE
-profit: 0
+statut: GAGNE
+profit: 0.79
 type: pari
 id: 402e102fa845ed84ab7e59b3b17f8c29_totals_over_+2.5
 type_marche: totals
@@ -37,6 +37,8 @@ sport_key: soccer_uefa_europa_league
 event_id: 402e102fa845ed84ab7e59b3b17f8c29
 liens: ['[[Football]]', '[[Ligue Europa]]']
 tags: [pari, football, profil/sweet_spot]
+score_final: 3-2
+regle_le: 2026-11-06T11:30
 ---
 
 # 🎯 SWEET SPOT — Torreense vs FC Ararat-Armenia : Plus de 2.5 buts
@@ -108,6 +110,9 @@ tags: [pari, football, profil/sweet_spot]
 
 ## Historique des cotes
 - 05/11 11:30 — Betclic ≈ 1.87 (estimée, minimum 1.87) · fair 2.069 · EV -9.81 %
+
+> [!success] Réglé automatiquement le 06/11/2026 à 11:30
+> ✅ Gagné · score final 3-2 · profit **+0.79 €**
 
 ## Suivi
 
