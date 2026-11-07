@@ -12,8 +12,8 @@ fair_odd_pinnacle: 2.05
 probabilite_reelle: 48.79
 ev_percent: -16.08
 mise_recommandee: 0.52
-statut: EN_ATTENTE
-profit: 0
+statut: GAGNE
+profit: 0.37
 type: pari
 id: combo_20261106
 type_marche: combo
@@ -22,6 +22,9 @@ bankroll_reference: 10.32
 detecte_le: 2026-11-06T11:30
 liens: ['[[Basketball]]', '[[NBA]]']
 tags: [pari, combine, profil/combine]
+score_final: 112-100 · 107-121
+regle_le: 2026-11-07T11:32
+cote_reglee: 1.716
 ---
 
 # 🧩 Combiné du jour — 06/11/2026
@@ -42,7 +45,8 @@ EV -16.1 % : les marges de chaque sélection se multiplient dans un combiné.
 
 ## Résultat
 
-En attente : réglé automatiquement par `auto_settle` (scores ESPN).
+> [!success] Réglé automatiquement le 07/11/2026 à 11:32
+> ✅ Gagné · score final 112-100 · 107-121 · profit **+0.37 €**
 
 ## Notes personnelles
 

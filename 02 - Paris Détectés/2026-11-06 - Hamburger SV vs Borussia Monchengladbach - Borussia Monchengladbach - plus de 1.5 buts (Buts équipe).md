@@ -12,8 +12,8 @@ fair_odd_pinnacle: 3.029
 probabilite_reelle: 33.01
 ev_percent: -9.29
 mise_recommandee: 0.52
-statut: EN_ATTENTE
-profit: 0
+statut: PERDU
+profit: -0.52
 type: pari
 id: 295076c39e49863cb54db085ac3cd340_team_totals_borussia-monchengladbach-over_+1.5
 type_marche: team_totals
@@ -37,6 +37,8 @@ sport_key: soccer_germany_bundesliga
 event_id: 295076c39e49863cb54db085ac3cd340
 liens: ['[[Football]]', '[[Bundesliga]]']
 tags: [pari, football, profil/audacieux]
+score_final: 3-1
+regle_le: 2026-11-07T11:32
 ---
 
 # 🔥 AUDACIEUX — Hamburger SV vs Borussia Monchengladbach : Borussia Monchengladbach : plus de 1.5 buts
@@ -112,6 +114,9 @@ tags: [pari, football, profil/audacieux]
 
 ## Historique des cotes
 - 06/11 11:30 — Betclic ≈ 2.75 (estimée, minimum 2.73) · fair 3.029 · EV -9.29 %
+
+> [!success] Réglé automatiquement le 07/11/2026 à 11:32
+> ❌ Perdu · score final 3-1 · profit **-0.52 €**
 
 ## Suivi
 

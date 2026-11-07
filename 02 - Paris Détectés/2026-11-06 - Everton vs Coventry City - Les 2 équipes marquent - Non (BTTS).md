@@ -12,8 +12,8 @@ fair_odd_pinnacle: 1.979
 probabilite_reelle: 50.53
 ev_percent: -8.96
 mise_recommandee: 0.72
-statut: EN_ATTENTE
-profit: 0
+statut: PERDU
+profit: -0.72
 type: pari
 id: 586bec023ee8ac2f0645d963bd2c9d25_btts_no
 type_marche: btts
@@ -37,6 +37,8 @@ sport_key: soccer_epl
 event_id: 586bec023ee8ac2f0645d963bd2c9d25
 liens: ['[[Football]]', '[[Premier League]]']
 tags: [pari, football, profil/sweet_spot]
+score_final: 3-1
+regle_le: 2026-11-07T11:32
 ---
 
 # 🎯 SWEET SPOT — Everton vs Coventry City : Les 2 équipes marquent : Non
@@ -112,6 +114,9 @@ tags: [pari, football, profil/sweet_spot]
 
 ## Historique des cotes
 - 06/11 11:30 — Betclic ≈ 1.80 (estimée, minimum 1.79) · fair 1.979 · EV -8.96 %
+
+> [!success] Réglé automatiquement le 07/11/2026 à 11:32
+> ❌ Perdu · score final 3-1 · profit **-0.72 €**
 
 ## Suivi
 

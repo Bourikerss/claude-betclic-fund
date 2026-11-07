@@ -12,8 +12,8 @@ fair_odd_pinnacle: 1.62
 probabilite_reelle: 61.71
 ev_percent: -8.27
 mise_recommandee: 1.03
-statut: EN_ATTENTE
-profit: 0
+statut: PERDU
+profit: -1.03
 type: pari
 id: 9dd0014685fd62d9b2890d7c33a8c9ab_team_totals_alaves-over_+0.5
 type_marche: team_totals
@@ -37,6 +37,8 @@ sport_key: soccer_spain_la_liga
 event_id: 9dd0014685fd62d9b2890d7c33a8c9ab
 liens: ['[[Football]]', '[[La Liga]]']
 tags: [pari, football, profil/safe]
+score_final: 0-0
+regle_le: 2026-11-07T11:32
 ---
 
 # 🛡️ SAFE — Sevilla vs Alavés : Alavés : plus de 0.5 but
@@ -112,6 +114,9 @@ tags: [pari, football, profil/safe]
 
 ## Historique des cotes
 - 06/11 11:30 — Betclic ≈ 1.49 (estimée, minimum 1.46) · fair 1.620 · EV -8.27 %
+
+> [!success] Réglé automatiquement le 07/11/2026 à 11:32
+> ❌ Perdu · score final 0-0 · profit **-1.03 €**
 
 ## Suivi
 

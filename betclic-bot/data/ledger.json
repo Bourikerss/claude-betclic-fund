@@ -249,6 +249,38 @@
       "bet_id": "combo_20261106",
       "amount": -0.52,
       "balance": 7.53
+    },
+    {
+      "date": "2026-11-07T10:32:28Z",
+      "type": "PERTE",
+      "label": "Perte · Everton vs Coventry City · Les 2 équipes marquent : Non",
+      "bet_id": "586bec023ee8ac2f0645d963bd2c9d25_btts_no",
+      "amount": 0.0,
+      "balance": 7.53
+    },
+    {
+      "date": "2026-11-07T10:32:28Z",
+      "type": "PERTE",
+      "label": "Perte · Sevilla vs Alavés · Alavés : plus de 0.5 but",
+      "bet_id": "9dd0014685fd62d9b2890d7c33a8c9ab_team_totals_alaves-over_+0.5",
+      "amount": 0.0,
+      "balance": 7.53
+    },
+    {
+      "date": "2026-11-07T10:32:28Z",
+      "type": "PERTE",
+      "label": "Perte · Hamburger SV vs Borussia Monchengladbach · Borussia Monchengladbach : plus de 1.5 buts",
+      "bet_id": "295076c39e49863cb54db085ac3cd340_team_totals_borussia-monchengladbach-over_+1.5",
+      "amount": 0.0,
+      "balance": 7.53
+    },
+    {
+      "date": "2026-11-07T10:32:28Z",
+      "type": "GAIN",
+      "label": "Gain · Combiné du jour · 2 sélections",
+      "bet_id": "combo_20261106",
+      "amount": 0.89,
+      "balance": 8.42
     }
   ],
   "bets": {
@@ -986,18 +1018,19 @@
           "selection": "Les 2 équipes marquent : Non",
           "odd": 1.79,
           "estimated": true,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "PERDU",
+          "final_score": "3-1"
         }
       ],
       "stake": 0.72,
       "placed_at": "2026-11-06T10:30:03Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.29
+      "status": "PERDU",
+      "payout": 0.0,
+      "profit": -0.72,
+      "settled_at": "2026-11-07T10:32:28Z",
+      "final_score": "3-1",
+      "potential_payout": 1.29,
+      "settled_odd": 1.79
     },
     "9dd0014685fd62d9b2890d7c33a8c9ab_team_totals_alaves-over_+0.5": {
       "id": "9dd0014685fd62d9b2890d7c33a8c9ab_team_totals_alaves-over_+0.5",
@@ -1034,18 +1067,19 @@
           "selection": "Alavés : plus de 0.5 but",
           "odd": 1.46,
           "estimated": true,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "PERDU",
+          "final_score": "0-0"
         }
       ],
       "stake": 1.03,
       "placed_at": "2026-11-06T10:30:03Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.5
+      "status": "PERDU",
+      "payout": 0.0,
+      "profit": -1.03,
+      "settled_at": "2026-11-07T10:32:28Z",
+      "final_score": "0-0",
+      "potential_payout": 1.5,
+      "settled_odd": 1.46
     },
     "295076c39e49863cb54db085ac3cd340_team_totals_borussia-monchengladbach-over_+1.5": {
       "id": "295076c39e49863cb54db085ac3cd340_team_totals_borussia-monchengladbach-over_+1.5",
@@ -1082,18 +1116,19 @@
           "selection": "Borussia Monchengladbach : plus de 1.5 buts",
           "odd": 2.73,
           "estimated": true,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "PERDU",
+          "final_score": "3-1"
         }
       ],
       "stake": 0.52,
       "placed_at": "2026-11-06T10:30:03Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.42
+      "status": "PERDU",
+      "payout": 0.0,
+      "profit": -0.52,
+      "settled_at": "2026-11-07T10:32:28Z",
+      "final_score": "3-1",
+      "potential_payout": 1.42,
+      "settled_odd": 2.73
     },
     "combo_20261106": {
       "id": "combo_20261106",
@@ -1131,8 +1166,8 @@
           "odd": 1.3,
           "estimated": false,
           "headline": "Dallas Mavericks : 2V-2D à domicile, forme VVVDD contre DDDDD pour Utah Jazz",
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "112-100"
         },
         {
           "event_id": "1c60a090180de530cfe273a5d6a381e6",
@@ -1151,18 +1186,19 @@
           "odd": 1.32,
           "estimated": false,
           "headline": "Toronto Raptors : 2V-3D à l'extérieur, forme VDDVD contre VDDDD pour Milwaukee Bucks",
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "107-121"
         }
       ],
       "stake": 0.52,
       "placed_at": "2026-11-06T10:30:03Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 0.89
+      "status": "GAGNE",
+      "payout": 0.89,
+      "profit": 0.37,
+      "settled_at": "2026-11-07T10:32:28Z",
+      "final_score": "112-100 · 107-121",
+      "potential_payout": 0.89,
+      "settled_odd": 1.716
     }
   }
 }
