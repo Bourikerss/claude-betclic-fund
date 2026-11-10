@@ -12,8 +12,8 @@ fair_odd_pinnacle: 3.817
 probabilite_reelle: 26.2
 ev_percent: -6.99
 mise_recommandee: 0.5
-statut: EN_ATTENTE
-profit: 0
+statut: PERDU
+profit: -0.5
 type: pari
 id: dc61de43b5db9de357f48f44c8022494_h2h_denver-nuggets
 type_marche: h2h
@@ -37,6 +37,8 @@ sport_key: basketball_nba
 event_id: dc61de43b5db9de357f48f44c8022494
 liens: ['[[Basketball]]', '[[NBA]]']
 tags: [pari, basketball, profil/audacieux]
+score_final: 110-100
+regle_le: 2026-11-10T11:32
 ---
 
 # 🔥 AUDACIEUX — Houston Rockets vs Denver Nuggets : Denver Nuggets
@@ -111,6 +113,9 @@ tags: [pari, basketball, profil/audacieux]
 
 ## Historique des cotes
 - 09/11 11:47 — Betclic **3.55** · fair 3.817 · EV -6.99 %
+
+> [!success] Réglé automatiquement le 10/11/2026 à 11:32
+> ❌ Perdu · score final 110-100 · profit **-0.50 €**
 
 ## Suivi
 

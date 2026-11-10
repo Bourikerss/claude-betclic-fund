@@ -12,8 +12,8 @@ fair_odd_pinnacle: 2.234
 probabilite_reelle: 44.77
 ev_percent: -17.17
 mise_recommandee: 0.5
-statut: EN_ATTENTE
-profit: 0
+statut: PERDU
+profit: -0.5
 type: pari
 id: combo_20261109
 type_marche: combo
@@ -22,6 +22,8 @@ bankroll_reference: 8.42
 detecte_le: 2026-11-09T11:47
 liens: ['[[Basketball]]', '[[NBA]]']
 tags: [pari, combine, profil/combine]
+score_final: 96-122 · 138-87 · 124-112
+regle_le: 2026-11-10T11:32
 ---
 
 # 🧩 Combiné du jour — 09/11/2026
@@ -43,7 +45,8 @@ EV -17.2 % : les marges de chaque sélection se multiplient dans un combiné.
 
 ## Résultat
 
-En attente : réglé automatiquement par `auto_settle` (scores ESPN).
+> [!success] Réglé automatiquement le 10/11/2026 à 11:32
+> ❌ Perdu · score final 96-122 · 138-87 · 124-112 · profit **-0.50 €**
 
 ## Notes personnelles
 

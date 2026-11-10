@@ -12,8 +12,8 @@ fair_odd_pinnacle: 2.389
 probabilite_reelle: 41.85
 ev_percent: -7.92
 mise_recommandee: 0.59
-statut: EN_ATTENTE
-profit: 0
+statut: GAGNE
+profit: 0.71
 type: pari
 id: 56efae2815b3a18850f07a3781d652a2_h2h_memphis-grizzlies
 type_marche: h2h
@@ -37,6 +37,8 @@ sport_key: basketball_nba
 event_id: 56efae2815b3a18850f07a3781d652a2
 liens: ['[[Basketball]]', '[[NBA]]']
 tags: [pari, basketball, profil/sweet_spot]
+score_final: 102-118
+regle_le: 2026-11-10T11:32
 ---
 
 # 🎯 SWEET SPOT — Toronto Raptors vs Memphis Grizzlies : Memphis Grizzlies
@@ -111,6 +113,9 @@ tags: [pari, basketball, profil/sweet_spot]
 
 ## Historique des cotes
 - 09/11 11:47 — Betclic **2.2** · fair 2.389 · EV -7.92 %
+
+> [!success] Réglé automatiquement le 10/11/2026 à 11:32
+> ✅ Gagné · score final 102-118 · profit **+0.71 €**
 
 ## Suivi
 

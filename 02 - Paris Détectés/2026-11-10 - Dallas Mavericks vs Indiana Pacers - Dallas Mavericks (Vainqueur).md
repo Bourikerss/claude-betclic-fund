@@ -12,8 +12,8 @@ fair_odd_pinnacle: 1.771
 probabilite_reelle: 56.46
 ev_percent: -7.98
 mise_recommandee: 0.84
-statut: EN_ATTENTE
-profit: 0
+statut: GAGNE
+profit: 0.53
 type: pari
 id: 9866fa22adc8509d487522ef4cf0fc24_h2h_dallas-mavericks
 type_marche: h2h
@@ -37,6 +37,8 @@ sport_key: basketball_nba
 event_id: 9866fa22adc8509d487522ef4cf0fc24
 liens: ['[[Basketball]]', '[[NBA]]']
 tags: [pari, basketball, profil/safe]
+score_final: 125-122
+regle_le: 2026-11-10T11:32
 ---
 
 # 🛡️ SAFE — Dallas Mavericks vs Indiana Pacers : Dallas Mavericks
@@ -111,6 +113,9 @@ tags: [pari, basketball, profil/safe]
 
 ## Historique des cotes
 - 09/11 11:47 — Betclic **1.63** · fair 1.771 · EV -7.98 %
+
+> [!success] Réglé automatiquement le 10/11/2026 à 11:32
+> ✅ Gagné · score final 125-122 · profit **+0.53 €**
 
 ## Suivi
 

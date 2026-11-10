@@ -313,6 +313,62 @@
       "bet_id": "combo_20261109",
       "amount": -0.5,
       "balance": 5.99
+    },
+    {
+      "date": "2026-11-10T10:32:25Z",
+      "type": "PERTE",
+      "label": "Perte · Houston Rockets vs Denver Nuggets · Denver Nuggets",
+      "bet_id": "dc61de43b5db9de357f48f44c8022494_h2h_denver-nuggets",
+      "amount": 0.0,
+      "balance": 5.99
+    },
+    {
+      "date": "2026-11-10T10:32:25Z",
+      "type": "GAIN",
+      "label": "Gain · Dallas Mavericks vs Indiana Pacers · Dallas Mavericks",
+      "bet_id": "9866fa22adc8509d487522ef4cf0fc24_h2h_dallas-mavericks",
+      "amount": 1.37,
+      "balance": 7.36
+    },
+    {
+      "date": "2026-11-10T10:32:25Z",
+      "type": "GAIN",
+      "label": "Gain · Toronto Raptors vs Memphis Grizzlies · Memphis Grizzlies",
+      "bet_id": "56efae2815b3a18850f07a3781d652a2_h2h_memphis-grizzlies",
+      "amount": 1.3,
+      "balance": 8.66
+    },
+    {
+      "date": "2026-11-10T10:32:25Z",
+      "type": "PERTE",
+      "label": "Perte · Combiné du jour · 3 sélections",
+      "bet_id": "combo_20261109",
+      "amount": 0.0,
+      "balance": 8.66
+    },
+    {
+      "date": "2026-11-10T10:32:25Z",
+      "type": "MISE",
+      "label": "Mise · Philadelphia 76ers vs Boston Celtics · Philadelphia 76ers",
+      "bet_id": "cfa503c66cd505776a910921875ef7dd_h2h_philadelphia-76ers",
+      "amount": -0.61,
+      "balance": 8.05
+    },
+    {
+      "date": "2026-11-10T10:32:25Z",
+      "type": "MISE",
+      "label": "Mise · Phoenix Suns vs Los Angeles Clippers · Phoenix Suns",
+      "bet_id": "8178ff2ec61f604b61dfe6d7b8d71103_h2h_phoenix-suns",
+      "amount": -0.87,
+      "balance": 7.18
+    },
+    {
+      "date": "2026-11-10T10:32:25Z",
+      "type": "MISE",
+      "label": "Mise · Portland Trail Blazers vs Oklahoma City Thunder · Oklahoma City Thunder",
+      "bet_id": "f5477c781c94e09e85374bbf9149c0f1_h2h_oklahoma-city-thunder",
+      "amount": -0.87,
+      "balance": 6.31
     }
   ],
   "bets": {
@@ -1267,18 +1323,19 @@
           "selection": "Denver Nuggets",
           "odd": 3.55,
           "estimated": false,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "PERDU",
+          "final_score": "110-100"
         }
       ],
       "stake": 0.5,
       "placed_at": "2026-11-09T10:47:03Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.77
+      "status": "PERDU",
+      "payout": 0.0,
+      "profit": -0.5,
+      "settled_at": "2026-11-10T10:32:25Z",
+      "final_score": "110-100",
+      "potential_payout": 1.77,
+      "settled_odd": 3.55
     },
     "9866fa22adc8509d487522ef4cf0fc24_h2h_dallas-mavericks": {
       "id": "9866fa22adc8509d487522ef4cf0fc24_h2h_dallas-mavericks",
@@ -1315,18 +1372,19 @@
           "selection": "Dallas Mavericks",
           "odd": 1.63,
           "estimated": false,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "125-122"
         }
       ],
       "stake": 0.84,
       "placed_at": "2026-11-09T10:47:03Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.37
+      "status": "GAGNE",
+      "payout": 1.37,
+      "profit": 0.53,
+      "settled_at": "2026-11-10T10:32:25Z",
+      "final_score": "125-122",
+      "potential_payout": 1.37,
+      "settled_odd": 1.63
     },
     "56efae2815b3a18850f07a3781d652a2_h2h_memphis-grizzlies": {
       "id": "56efae2815b3a18850f07a3781d652a2_h2h_memphis-grizzlies",
@@ -1363,18 +1421,19 @@
           "selection": "Memphis Grizzlies",
           "odd": 2.2,
           "estimated": false,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "102-118"
         }
       ],
       "stake": 0.59,
       "placed_at": "2026-11-09T10:47:03Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.3
+      "status": "GAGNE",
+      "payout": 1.3,
+      "profit": 0.71,
+      "settled_at": "2026-11-10T10:32:25Z",
+      "final_score": "102-118",
+      "potential_payout": 1.3,
+      "settled_odd": 2.2
     },
     "combo_20261109": {
       "id": "combo_20261109",
@@ -1412,8 +1471,8 @@
           "odd": 1.23,
           "estimated": false,
           "headline": "San Antonio Spurs : 4V-0D à l'extérieur, forme VVVVV contre DDDVV pour Phoenix Suns",
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "96-122"
         },
         {
           "event_id": "3619e1cf4b0a325c3e0ba5b1fb7f3d91",
@@ -1432,8 +1491,8 @@
           "odd": 1.22,
           "estimated": false,
           "headline": "Golden State Warriors : 5V-1D à domicile, forme VVVVV contre VVVDD pour New Orleans Pelicans",
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "138-87"
         },
         {
           "event_id": "1df5ff8fe9c6d2dbff1d0ae176063b37",
@@ -1452,18 +1511,163 @@
           "odd": 1.23,
           "estimated": false,
           "headline": "Cleveland Cavaliers : 1V-3D à l'extérieur, forme VDDVD contre DDDDD pour Charlotte Hornets",
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "PERDU",
+          "final_score": "124-112"
         }
       ],
       "stake": 0.5,
       "placed_at": "2026-11-09T10:47:03Z",
+      "status": "PERDU",
+      "payout": 0.0,
+      "profit": -0.5,
+      "settled_at": "2026-11-10T10:32:25Z",
+      "final_score": "96-122 · 138-87 · 124-112",
+      "potential_payout": 0.93,
+      "settled_odd": 1.85
+    },
+    "cfa503c66cd505776a910921875ef7dd_h2h_philadelphia-76ers": {
+      "id": "cfa503c66cd505776a910921875ef7dd_h2h_philadelphia-76ers",
+      "kind": "SIMPLE",
+      "label": "Philadelphia 76ers vs Boston Celtics · Philadelphia 76ers",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "match": "Philadelphia 76ers vs Boston Celtics",
+      "kickoff": "2026-11-11T01:10:00Z",
+      "market": "h2h",
+      "market_label": "Vainqueur du match",
+      "selection": "Philadelphia 76ers",
+      "odd": 1.92,
+      "estimated": false,
+      "profile": "SWEET_SPOT",
+      "score": 47,
+      "fair_prob": 0.4936,
+      "ev": -0.0523,
+      "headline": "Philadelphia 76ers : 4V-1D à domicile, forme VVVDV contre VDVVV pour Boston Celtics",
+      "legs": [
+        {
+          "event_id": "cfa503c66cd505776a910921875ef7dd",
+          "sport_key": "basketball_nba",
+          "sport": "Basketball",
+          "competition": "NBA",
+          "home": "Philadelphia 76ers",
+          "away": "Boston Celtics",
+          "match": "Philadelphia 76ers vs Boston Celtics",
+          "kickoff": "2026-11-11T01:10:00Z",
+          "market": "h2h",
+          "market_label": "Vainqueur du match",
+          "outcome_name": "Philadelphia 76ers",
+          "point": null,
+          "selection": "Philadelphia 76ers",
+          "odd": 1.92,
+          "estimated": false,
+          "status": "EN_ATTENTE",
+          "final_score": null
+        }
+      ],
+      "stake": 0.61,
+      "placed_at": "2026-11-10T10:32:25Z",
       "status": "EN_ATTENTE",
       "payout": null,
       "profit": null,
       "settled_at": null,
       "final_score": null,
-      "potential_payout": 0.93
+      "potential_payout": 1.17
+    },
+    "8178ff2ec61f604b61dfe6d7b8d71103_h2h_phoenix-suns": {
+      "id": "8178ff2ec61f604b61dfe6d7b8d71103_h2h_phoenix-suns",
+      "kind": "SIMPLE",
+      "label": "Phoenix Suns vs Los Angeles Clippers · Phoenix Suns",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "match": "Phoenix Suns vs Los Angeles Clippers",
+      "kickoff": "2026-11-11T02:10:00Z",
+      "market": "h2h",
+      "market_label": "Vainqueur du match",
+      "selection": "Phoenix Suns",
+      "odd": 1.52,
+      "estimated": false,
+      "profile": "SAFE",
+      "score": 31,
+      "fair_prob": 0.599,
+      "ev": -0.0895,
+      "headline": "Phoenix Suns : 3V-2D à domicile, forme DDDVV contre DDDDV pour Los Angeles Clippers",
+      "legs": [
+        {
+          "event_id": "8178ff2ec61f604b61dfe6d7b8d71103",
+          "sport_key": "basketball_nba",
+          "sport": "Basketball",
+          "competition": "NBA",
+          "home": "Phoenix Suns",
+          "away": "Los Angeles Clippers",
+          "match": "Phoenix Suns vs Los Angeles Clippers",
+          "kickoff": "2026-11-11T02:10:00Z",
+          "market": "h2h",
+          "market_label": "Vainqueur du match",
+          "outcome_name": "Phoenix Suns",
+          "point": null,
+          "selection": "Phoenix Suns",
+          "odd": 1.52,
+          "estimated": false,
+          "status": "EN_ATTENTE",
+          "final_score": null
+        }
+      ],
+      "stake": 0.87,
+      "placed_at": "2026-11-10T10:32:25Z",
+      "status": "EN_ATTENTE",
+      "payout": null,
+      "profit": null,
+      "settled_at": null,
+      "final_score": null,
+      "potential_payout": 1.32
+    },
+    "f5477c781c94e09e85374bbf9149c0f1_h2h_oklahoma-city-thunder": {
+      "id": "f5477c781c94e09e85374bbf9149c0f1_h2h_oklahoma-city-thunder",
+      "kind": "SIMPLE",
+      "label": "Portland Trail Blazers vs Oklahoma City Thunder · Oklahoma City Thunder",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "match": "Portland Trail Blazers vs Oklahoma City Thunder",
+      "kickoff": "2026-11-11T04:10:00Z",
+      "market": "h2h",
+      "market_label": "Vainqueur du match",
+      "selection": "Oklahoma City Thunder",
+      "odd": 1.64,
+      "estimated": false,
+      "profile": "SAFE",
+      "score": 28,
+      "fair_prob": 0.5635,
+      "ev": -0.0759,
+      "headline": "Oklahoma City Thunder : 3V-2D à l'extérieur, forme DVVVV contre VVVDD pour Portland Trail Blazers",
+      "legs": [
+        {
+          "event_id": "f5477c781c94e09e85374bbf9149c0f1",
+          "sport_key": "basketball_nba",
+          "sport": "Basketball",
+          "competition": "NBA",
+          "home": "Portland Trail Blazers",
+          "away": "Oklahoma City Thunder",
+          "match": "Portland Trail Blazers vs Oklahoma City Thunder",
+          "kickoff": "2026-11-11T04:10:00Z",
+          "market": "h2h",
+          "market_label": "Vainqueur du match",
+          "outcome_name": "Oklahoma City Thunder",
+          "point": null,
+          "selection": "Oklahoma City Thunder",
+          "odd": 1.64,
+          "estimated": false,
+          "status": "EN_ATTENTE",
+          "final_score": null
+        }
+      ],
+      "stake": 0.87,
+      "placed_at": "2026-11-10T10:32:25Z",
+      "status": "EN_ATTENTE",
+      "payout": null,
+      "profit": null,
+      "settled_at": null,
+      "final_score": null,
+      "potential_payout": 1.43
     }
   }
 }
