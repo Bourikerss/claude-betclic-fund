@@ -12,8 +12,8 @@ fair_odd_pinnacle: 2.026
 probabilite_reelle: 49.36
 ev_percent: -5.23
 mise_recommandee: 0.61
-statut: EN_ATTENTE
-profit: 0
+statut: PERDU
+profit: -0.61
 type: pari
 id: cfa503c66cd505776a910921875ef7dd_h2h_philadelphia-76ers
 type_marche: h2h
@@ -37,6 +37,8 @@ sport_key: basketball_nba
 event_id: cfa503c66cd505776a910921875ef7dd
 liens: ['[[Basketball]]', '[[NBA]]']
 tags: [pari, basketball, profil/sweet_spot]
+score_final: 101-123
+regle_le: 2026-11-11T11:30
 ---
 
 # 🎯 SWEET SPOT — Philadelphia 76ers vs Boston Celtics : Philadelphia 76ers
@@ -111,6 +113,9 @@ tags: [pari, basketball, profil/sweet_spot]
 
 ## Historique des cotes
 - 10/11 11:32 — Betclic **1.92** · fair 2.026 · EV -5.23 %
+
+> [!success] Réglé automatiquement le 11/11/2026 à 11:30
+> ❌ Perdu · score final 101-123 · profit **-0.61 €**
 
 ## Suivi
 

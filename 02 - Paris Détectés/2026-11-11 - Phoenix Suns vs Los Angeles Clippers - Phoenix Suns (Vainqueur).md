@@ -12,8 +12,8 @@ fair_odd_pinnacle: 1.669
 probabilite_reelle: 59.9
 ev_percent: -8.95
 mise_recommandee: 0.87
-statut: EN_ATTENTE
-profit: 0
+statut: GAGNE
+profit: 0.45
 type: pari
 id: 8178ff2ec61f604b61dfe6d7b8d71103_h2h_phoenix-suns
 type_marche: h2h
@@ -37,6 +37,8 @@ sport_key: basketball_nba
 event_id: 8178ff2ec61f604b61dfe6d7b8d71103
 liens: ['[[Basketball]]', '[[NBA]]']
 tags: [pari, basketball, profil/safe]
+score_final: 133-110
+regle_le: 2026-11-11T11:30
 ---
 
 # 🛡️ SAFE — Phoenix Suns vs Los Angeles Clippers : Phoenix Suns
@@ -111,6 +113,9 @@ tags: [pari, basketball, profil/safe]
 
 ## Historique des cotes
 - 10/11 11:32 — Betclic **1.52** · fair 1.669 · EV -8.95 %
+
+> [!success] Réglé automatiquement le 11/11/2026 à 11:30
+> ✅ Gagné · score final 133-110 · profit **+0.45 €**
 
 ## Suivi
 
