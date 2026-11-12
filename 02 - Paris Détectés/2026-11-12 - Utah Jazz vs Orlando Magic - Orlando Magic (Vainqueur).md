@@ -12,8 +12,8 @@ fair_odd_pinnacle: 1.618
 probabilite_reelle: 61.8
 ev_percent: -8.54
 mise_recommandee: 0.76
-statut: EN_ATTENTE
-profit: 0
+statut: GAGNE
+profit: 0.36
 type: pari
 id: 423255883d0e6c5d1a94a533b90e935b_h2h_orlando-magic
 type_marche: h2h
@@ -37,6 +37,8 @@ sport_key: basketball_nba
 event_id: 423255883d0e6c5d1a94a533b90e935b
 liens: ['[[Basketball]]', '[[NBA]]']
 tags: [pari, basketball, profil/safe]
+score_final: 108-123
+regle_le: 2026-11-12T11:40
 ---
 
 # 🛡️ SAFE — Utah Jazz vs Orlando Magic : Orlando Magic
@@ -111,6 +113,9 @@ tags: [pari, basketball, profil/safe]
 
 ## Historique des cotes
 - 11/11 11:30 — Betclic **1.48** · fair 1.618 · EV -8.54 %
+
+> [!success] Réglé automatiquement le 12/11/2026 à 11:40
+> ✅ Gagné · score final 108-123 · profit **+0.36 €**
 
 ## Suivi
 

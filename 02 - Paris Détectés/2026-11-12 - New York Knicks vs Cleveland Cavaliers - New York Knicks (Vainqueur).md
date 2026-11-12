@@ -12,8 +12,8 @@ fair_odd_pinnacle: 1.612
 probabilite_reelle: 62.04
 ev_percent: -8.18
 mise_recommandee: 0.76
-statut: EN_ATTENTE
-profit: 0
+statut: PERDU
+profit: -0.76
 type: pari
 id: 095441822e3b9b1b84bff9e482b9057a_h2h_new-york-knicks
 type_marche: h2h
@@ -37,6 +37,8 @@ sport_key: basketball_nba
 event_id: 095441822e3b9b1b84bff9e482b9057a
 liens: ['[[Basketball]]', '[[NBA]]']
 tags: [pari, basketball, profil/safe]
+score_final: 107-115
+regle_le: 2026-11-12T11:40
 ---
 
 # 🛡️ SAFE — New York Knicks vs Cleveland Cavaliers : New York Knicks
@@ -110,6 +112,9 @@ tags: [pari, basketball, profil/safe]
 
 ## Historique des cotes
 - 11/11 11:30 — Betclic **1.48** · fair 1.612 · EV -8.18 %
+
+> [!success] Réglé automatiquement le 12/11/2026 à 11:40
+> ❌ Perdu · score final 107-115 · profit **-0.76 €**
 
 ## Suivi
 

@@ -409,6 +409,46 @@
       "bet_id": "423255883d0e6c5d1a94a533b90e935b_h2h_orlando-magic",
       "amount": -0.76,
       "balance": 5.35
+    },
+    {
+      "date": "2026-11-12T10:40:27Z",
+      "type": "PERTE",
+      "label": "Perte · Portland Trail Blazers vs Oklahoma City Thunder · Oklahoma City Thunder",
+      "bet_id": "f5477c781c94e09e85374bbf9149c0f1_h2h_oklahoma-city-thunder",
+      "amount": 0.0,
+      "balance": 5.35
+    },
+    {
+      "date": "2026-11-12T10:40:27Z",
+      "type": "PERTE",
+      "label": "Perte · New York Knicks vs Cleveland Cavaliers · New York Knicks",
+      "bet_id": "095441822e3b9b1b84bff9e482b9057a_h2h_new-york-knicks",
+      "amount": 0.0,
+      "balance": 5.35
+    },
+    {
+      "date": "2026-11-12T10:40:27Z",
+      "type": "PERTE",
+      "label": "Perte · New Orleans Pelicans vs Brooklyn Nets · New Orleans Pelicans",
+      "bet_id": "e6a37eea1dddcbd0384c81237e81f47f_h2h_new-orleans-pelicans",
+      "amount": 0.0,
+      "balance": 5.35
+    },
+    {
+      "date": "2026-11-12T10:40:27Z",
+      "type": "GAIN",
+      "label": "Gain · Utah Jazz vs Orlando Magic · Orlando Magic",
+      "bet_id": "423255883d0e6c5d1a94a533b90e935b_h2h_orlando-magic",
+      "amount": 1.12,
+      "balance": 6.47
+    },
+    {
+      "date": "2026-11-12T10:40:27Z",
+      "type": "MISE",
+      "label": "Mise · Combiné du jour · 3 sélections",
+      "bet_id": "combo_20261112",
+      "amount": -0.5,
+      "balance": 5.97
     }
   ],
   "bets": {
@@ -1698,18 +1738,19 @@
           "selection": "Oklahoma City Thunder",
           "odd": 1.64,
           "estimated": false,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "PERDU",
+          "final_score": "118-108"
         }
       ],
       "stake": 0.87,
       "placed_at": "2026-11-10T10:32:25Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.43
+      "status": "PERDU",
+      "payout": 0.0,
+      "profit": -0.87,
+      "settled_at": "2026-11-12T10:40:27Z",
+      "final_score": "118-108",
+      "potential_payout": 1.43,
+      "settled_odd": 1.64
     },
     "095441822e3b9b1b84bff9e482b9057a_h2h_new-york-knicks": {
       "id": "095441822e3b9b1b84bff9e482b9057a_h2h_new-york-knicks",
@@ -1746,18 +1787,19 @@
           "selection": "New York Knicks",
           "odd": 1.48,
           "estimated": false,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "PERDU",
+          "final_score": "107-115"
         }
       ],
       "stake": 0.76,
       "placed_at": "2026-11-11T10:30:29Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.12
+      "status": "PERDU",
+      "payout": 0.0,
+      "profit": -0.76,
+      "settled_at": "2026-11-12T10:40:27Z",
+      "final_score": "107-115",
+      "potential_payout": 1.12,
+      "settled_odd": 1.48
     },
     "e6a37eea1dddcbd0384c81237e81f47f_h2h_new-orleans-pelicans": {
       "id": "e6a37eea1dddcbd0384c81237e81f47f_h2h_new-orleans-pelicans",
@@ -1794,18 +1836,19 @@
           "selection": "New Orleans Pelicans",
           "odd": 1.47,
           "estimated": false,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "PERDU",
+          "final_score": "111-145"
         }
       ],
       "stake": 0.76,
       "placed_at": "2026-11-11T10:30:29Z",
-      "status": "EN_ATTENTE",
-      "payout": null,
-      "profit": null,
-      "settled_at": null,
-      "final_score": null,
-      "potential_payout": 1.12
+      "status": "PERDU",
+      "payout": 0.0,
+      "profit": -0.76,
+      "settled_at": "2026-11-12T10:40:27Z",
+      "final_score": "111-145",
+      "potential_payout": 1.12,
+      "settled_odd": 1.47
     },
     "423255883d0e6c5d1a94a533b90e935b_h2h_orlando-magic": {
       "id": "423255883d0e6c5d1a94a533b90e935b_h2h_orlando-magic",
@@ -1842,18 +1885,108 @@
           "selection": "Orlando Magic",
           "odd": 1.48,
           "estimated": false,
-          "status": "EN_ATTENTE",
-          "final_score": null
+          "status": "GAGNE",
+          "final_score": "108-123"
         }
       ],
       "stake": 0.76,
       "placed_at": "2026-11-11T10:30:29Z",
+      "status": "GAGNE",
+      "payout": 1.12,
+      "profit": 0.36,
+      "settled_at": "2026-11-12T10:40:27Z",
+      "final_score": "108-123",
+      "potential_payout": 1.12,
+      "settled_odd": 1.48
+    },
+    "combo_20261112": {
+      "id": "combo_20261112",
+      "kind": "COMBINE",
+      "label": "Combiné du jour · 3 sélections",
+      "sport": "Multi",
+      "competition": "NBA",
+      "match": "Washington Wizards vs Detroit Pistons + Phoenix Suns vs Charlotte Hornets + Minnesota Timberwolves vs Dallas Mavericks",
+      "kickoff": "2026-11-13T02:10:00Z",
+      "market": "combo",
+      "market_label": "Combiné",
+      "selection": "Detroit Pistons + Phoenix Suns + Minnesota Timberwolves",
+      "odd": 2.21,
+      "estimated": false,
+      "profile": "COMBINE",
+      "score": 79,
+      "fair_prob": 0.3497,
+      "ev": -0.2272,
+      "headline": "3 sélections, 35 % de réussite combinée selon Pinnacle",
+      "legs": [
+        {
+          "event_id": "d5c5ae8d56762b45d1ec4b85337878f3",
+          "sport_key": "basketball_nba",
+          "sport": "Basketball",
+          "competition": "NBA",
+          "home": "Washington Wizards",
+          "away": "Detroit Pistons",
+          "match": "Washington Wizards vs Detroit Pistons",
+          "kickoff": "2026-11-13T00:10:00Z",
+          "market": "h2h",
+          "market_label": "Vainqueur du match",
+          "outcome_name": "Detroit Pistons",
+          "point": null,
+          "selection": "Detroit Pistons",
+          "odd": 1.18,
+          "estimated": false,
+          "headline": "Detroit Pistons : 4V-1D à l'extérieur, forme VVDDV contre DDDDD pour Washington Wizards",
+          "status": "EN_ATTENTE",
+          "final_score": null
+        },
+        {
+          "event_id": "f3f429e773bfb2340ba2bb90f2b9dd1e",
+          "sport_key": "basketball_nba",
+          "sport": "Basketball",
+          "competition": "NBA",
+          "home": "Phoenix Suns",
+          "away": "Charlotte Hornets",
+          "match": "Phoenix Suns vs Charlotte Hornets",
+          "kickoff": "2026-11-13T02:10:00Z",
+          "market": "h2h",
+          "market_label": "Vainqueur du match",
+          "outcome_name": "Phoenix Suns",
+          "point": null,
+          "selection": "Phoenix Suns",
+          "odd": 1.35,
+          "estimated": false,
+          "headline": "Phoenix Suns : 4V-3D à domicile, forme DVVDV contre DDDDV pour Charlotte Hornets",
+          "status": "EN_ATTENTE",
+          "final_score": null
+        },
+        {
+          "event_id": "3c93e4724d36d796aed71c0ca4055b1b",
+          "sport_key": "basketball_nba",
+          "sport": "Basketball",
+          "competition": "NBA",
+          "home": "Minnesota Timberwolves",
+          "away": "Dallas Mavericks",
+          "match": "Minnesota Timberwolves vs Dallas Mavericks",
+          "kickoff": "2026-11-13T01:10:00Z",
+          "market": "h2h",
+          "market_label": "Vainqueur du match",
+          "outcome_name": "Minnesota Timberwolves",
+          "point": null,
+          "selection": "Minnesota Timberwolves",
+          "odd": 1.39,
+          "estimated": false,
+          "headline": "Minnesota Timberwolves : 4V-1D à domicile, forme DVVVV contre DDVVV pour Dallas Mavericks",
+          "status": "EN_ATTENTE",
+          "final_score": null
+        }
+      ],
+      "stake": 0.5,
+      "placed_at": "2026-11-12T10:40:27Z",
       "status": "EN_ATTENTE",
       "payout": null,
       "profit": null,
       "settled_at": null,
       "final_score": null,
-      "potential_payout": 1.12
+      "potential_payout": 1.1
     }
   }
 }

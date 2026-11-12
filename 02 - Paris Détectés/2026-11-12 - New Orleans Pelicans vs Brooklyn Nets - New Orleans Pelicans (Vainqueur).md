@@ -12,8 +12,8 @@ fair_odd_pinnacle: 1.601
 probabilite_reelle: 62.47
 ev_percent: -8.17
 mise_recommandee: 0.76
-statut: EN_ATTENTE
-profit: 0
+statut: PERDU
+profit: -0.76
 type: pari
 id: e6a37eea1dddcbd0384c81237e81f47f_h2h_new-orleans-pelicans
 type_marche: h2h
@@ -37,6 +37,8 @@ sport_key: basketball_nba
 event_id: e6a37eea1dddcbd0384c81237e81f47f
 liens: ['[[Basketball]]', '[[NBA]]']
 tags: [pari, basketball, profil/safe]
+score_final: 111-145
+regle_le: 2026-11-12T11:40
 ---
 
 # 🛡️ SAFE — New Orleans Pelicans vs Brooklyn Nets : New Orleans Pelicans
@@ -111,6 +113,9 @@ tags: [pari, basketball, profil/safe]
 
 ## Historique des cotes
 - 11/11 11:30 — Betclic **1.47** · fair 1.601 · EV -8.17 %
+
+> [!success] Réglé automatiquement le 12/11/2026 à 11:40
+> ❌ Perdu · score final 111-145 · profit **-0.76 €**
 
 ## Suivi
 

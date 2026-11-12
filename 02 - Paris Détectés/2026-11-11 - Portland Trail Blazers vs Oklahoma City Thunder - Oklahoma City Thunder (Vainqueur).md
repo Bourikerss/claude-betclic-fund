@@ -12,8 +12,8 @@ fair_odd_pinnacle: 1.775
 probabilite_reelle: 56.35
 ev_percent: -7.59
 mise_recommandee: 0.87
-statut: EN_ATTENTE
-profit: 0
+statut: PERDU
+profit: -0.87
 type: pari
 id: f5477c781c94e09e85374bbf9149c0f1_h2h_oklahoma-city-thunder
 type_marche: h2h
@@ -37,6 +37,8 @@ sport_key: basketball_nba
 event_id: f5477c781c94e09e85374bbf9149c0f1
 liens: ['[[Basketball]]', '[[NBA]]']
 tags: [pari, basketball, profil/safe]
+score_final: 118-108
+regle_le: 2026-11-12T11:40
 ---
 
 # 🛡️ SAFE — Portland Trail Blazers vs Oklahoma City Thunder : Oklahoma City Thunder
@@ -111,6 +113,9 @@ tags: [pari, basketball, profil/safe]
 
 ## Historique des cotes
 - 10/11 11:32 — Betclic **1.64** · fair 1.775 · EV -7.59 %
+
+> [!success] Réglé automatiquement le 12/11/2026 à 11:40
+> ❌ Perdu · score final 118-108 · profit **-0.87 €**
 
 ## Suivi
 
