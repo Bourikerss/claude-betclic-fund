@@ -12,8 +12,8 @@ fair_odd_pinnacle: 1.645
 probabilite_reelle: 60.78
 ev_percent: -6.39
 mise_recommandee: 0.71
-statut: EN_ATTENTE
-profit: 0
+statut: GAGNE
+profit: 0.38
 type: pari
 id: 8a40b260e8fa0d67c1f2bc2b39a24982_h2h_memphis-grizzlies
 type_marche: h2h
@@ -37,6 +37,8 @@ sport_key: basketball_nba
 event_id: 8a40b260e8fa0d67c1f2bc2b39a24982
 liens: ['[[Basketball]]', '[[NBA]]']
 tags: [pari, basketball, profil/safe]
+score_final: 111-142
+regle_le: 2026-11-14T11:33
 ---
 
 # 🛡️ SAFE — New Orleans Pelicans vs Memphis Grizzlies : Memphis Grizzlies
@@ -111,6 +113,9 @@ tags: [pari, basketball, profil/safe]
 
 ## Historique des cotes
 - 13/11 11:40 — Betclic **1.54** · fair 1.645 · EV -6.39 %
+
+> [!success] Réglé automatiquement le 14/11/2026 à 11:33
+> ✅ Gagné · score final 111-142 · profit **+0.38 €**
 
 ## Suivi
 

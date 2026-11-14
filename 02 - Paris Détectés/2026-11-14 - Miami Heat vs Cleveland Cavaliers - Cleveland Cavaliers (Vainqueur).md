@@ -12,8 +12,8 @@ fair_odd_pinnacle: 2.215
 probabilite_reelle: 45.15
 ev_percent: -6.08
 mise_recommandee: 0.5
-statut: EN_ATTENTE
-profit: 0
+statut: PERDU
+profit: -0.5
 type: pari
 id: 58b860d500be69ebf853926aa1ac8271_h2h_cleveland-cavaliers
 type_marche: h2h
@@ -37,6 +37,8 @@ sport_key: basketball_nba
 event_id: 58b860d500be69ebf853926aa1ac8271
 liens: ['[[Basketball]]', '[[NBA]]']
 tags: [pari, basketball, profil/sweet_spot]
+score_final: 133-121
+regle_le: 2026-11-14T11:33
 ---
 
 # 🎯 SWEET SPOT — Miami Heat vs Cleveland Cavaliers : Cleveland Cavaliers
@@ -111,6 +113,9 @@ tags: [pari, basketball, profil/sweet_spot]
 
 ## Historique des cotes
 - 13/11 11:40 — Betclic **2.08** · fair 2.215 · EV -6.08 %
+
+> [!success] Réglé automatiquement le 14/11/2026 à 11:33
+> ❌ Perdu · score final 133-121 · profit **-0.50 €**
 
 ## Suivi
 
