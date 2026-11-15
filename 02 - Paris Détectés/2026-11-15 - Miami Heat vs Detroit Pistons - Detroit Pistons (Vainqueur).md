@@ -12,8 +12,8 @@ fair_odd_pinnacle: 1.586
 probabilite_reelle: 63.07
 ev_percent: -7.92
 mise_recommandee: 0.65
-statut: EN_ATTENTE
-profit: 0
+statut: PERDU
+profit: -0.65
 type: pari
 id: cb06267ae037a883ae6f71078d6e2aaa_h2h_detroit-pistons
 type_marche: h2h
@@ -37,6 +37,8 @@ sport_key: basketball_nba
 event_id: cb06267ae037a883ae6f71078d6e2aaa
 liens: ['[[Basketball]]', '[[NBA]]']
 tags: [pari, basketball, profil/safe]
+score_final: 137-117
+regle_le: 2026-11-15T11:38
 ---
 
 # 🛡️ SAFE — Miami Heat vs Detroit Pistons : Detroit Pistons
@@ -111,6 +113,9 @@ tags: [pari, basketball, profil/safe]
 
 ## Historique des cotes
 - 14/11 11:33 — Betclic **1.46** · fair 1.586 · EV -7.92 %
+
+> [!success] Réglé automatiquement le 15/11/2026 à 11:38
+> ❌ Perdu · score final 137-117 · profit **-0.65 €**
 
 ## Suivi
 
